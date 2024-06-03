@@ -13,4 +13,5 @@ import { TwoWayDatabindingComponent } from './two-way-databinding/two-way-databi
 })
 export class AppComponent {
   title = 'game-launcher-app';
+  
 }
