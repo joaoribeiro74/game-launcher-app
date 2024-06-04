@@ -3,11 +3,13 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { TwoWayDatabindingComponent } from './two-way-databinding/two-way-databinding.component';
+import { LoginComponent } from './login/login.component';
+import { ChildComponent } from './child/child.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FooterComponent, TwoWayDatabindingComponent],
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, TwoWayDatabindingComponent, LoginComponent, ChildComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
