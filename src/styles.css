@@ -4,7 +4,3 @@
 @tailwind utilities;
 
 html {background-color: #1C2C3C;}
-
-.displayNone{
-    display: none;
-}
