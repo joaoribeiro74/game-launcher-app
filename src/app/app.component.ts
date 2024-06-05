@@ -17,4 +17,5 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export class AppComponent {
   title = 'game-launcher-app';
+  
 }
