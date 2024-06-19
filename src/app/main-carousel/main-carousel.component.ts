@@ -1,14 +1,21 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { CardComponent } from '../card/card.component';
+import { MainPageComponent } from '../main-page/main-page.component';
 
 @Component({
   selector: 'app-main-carousel',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, CardComponent, MainPageComponent],
   templateUrl: './main-carousel.component.html',
   styleUrl: './main-carousel.component.css'
 })
 export class MainCarouselComponent implements OnInit {
+  @Input() title?: string;
+  @Input() price?: string;
+  @Input() image?: string;
+  @Input() release?: string;
+
   items: HTMLDivElement[] = [];
   currentPosition = 0;
   totalItems = 0;
@@ -91,7 +98,7 @@ export class MainCarouselComponent implements OnInit {
     if (this.intervalId) {
       clearInterval(this.intervalId);
     }
-    const interval = 4000; // intervalo em milissegundos
+    const interval = 20000; // intervalo em milissegundos
     this.intervalId = setInterval(() => {
       this.next();
     }, interval);
