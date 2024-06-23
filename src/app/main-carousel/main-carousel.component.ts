@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { MainPageComponent } from '../main-page/main-page.component';
 import { ApiService } from '../services/api.service';
@@ -20,9 +20,25 @@ export class MainCarouselComponent implements OnInit {
   @Input() image?: string;
   @Input() name?: string;
   @Input() price?: string;
-  @Input() screenshots?: string[];
+  @Input() screenshots: string[] = [];
+  @Input() currentGameIndex: number = 0;
+  currentScreenshotIndex: number = -1;
+
+  @Output() next = new EventEmitter<void>();
+  @Output() prev = new EventEmitter<void>();
 
   constructor() {}
+
+  onMouseOver(index: number) {
+    if (index >= 0 && index < this.screenshots.length) {
+      this.image = this.screenshots[index];
+      this.currentScreenshotIndex = index;
+    }
+  }
+
+  onMouseOut() {
+    this.image = this.image;
+  }
 
   ngOnInit(): void {
     this.items = Array.from(document.querySelectorAll('#default-carousel [data-carousel-item]')) as HTMLDivElement[];
@@ -39,36 +55,36 @@ export class MainCarouselComponent implements OnInit {
     const prevButton = document.querySelector('[data-carousel-prev]') as HTMLButtonElement;
     const nextButton = document.querySelector('[data-carousel-next]') as HTMLButtonElement;
 
-    if (prevButton) {
-      prevButton.addEventListener('click', () => {
-        this.prev();
-        this.handleInteraction();
-      });
-    }
-
-    if (nextButton) {
-      nextButton.addEventListener('click', () => {
-        this.next();
-        this.handleInteraction();
-      });
-    }
-
     this.showSlide();
-    this.startAutoPlay();
+
+    this.startInterval();
   }
 
   ngOnDestroy(): void {
+    // Limpa o intervalo quando o componente for destruído para evitar vazamentos de memória
     this.clearInterval();
   }
 
-  next() {
-    this.currentPosition = (this.currentPosition + 1) % this.totalItems;
-    this.showSlide();
+  startInterval(): void {
+    this.intervalId = setInterval(() => {
+      this.next.emit();
+    }, 10000); // Intervalo de 3 segundos (ajuste conforme necessário)
   }
 
-  prev() {
-    this.currentPosition = (this.currentPosition - 1 + this.totalItems) % this.totalItems;
-    this.showSlide();
+  clearInterval(): void {
+    clearInterval(this.intervalId);
+  }
+
+  onNextClick() {
+    this.clearInterval();
+    this.next.emit(); // Emitir o evento next
+    this.startInterval();
+  }
+
+  onPrevClick() {
+    this.clearInterval();
+    this.prev.emit(); // Emitir o evento prev
+    this.startInterval();
   }
 
   goTo(index: number) {
@@ -87,39 +103,8 @@ export class MainCarouselComponent implements OnInit {
       }
     });
 
-    // Atualiza a classe dos indicadores para refletir o slide atual
     this.indicators.forEach((indicator, i) => {
       indicator.setAttribute('aria-current', i === this.currentPosition ? 'true' : 'false');
     });
-  }
-
-  startAutoPlay() {
-    if (this.intervalId) {
-      clearInterval(this.intervalId);
-    }
-    const interval = 20000; // intervalo em milissegundos
-    this.intervalId = setInterval(() => {
-      this.next();
-    }, interval);
-  }
-
-  handleInteraction() {
-    // Limpa o intervalo existente
-    this.clearInterval();
-
-    // Define um timeout para reiniciar o autoplay após 5 segundos de inatividade
-    if (this.interactionTimeout) {
-      clearTimeout(this.interactionTimeout);
-    }
-    this.interactionTimeout = setTimeout(() => {
-      this.startAutoPlay();
-    }, 3000);
-  }
-
-  clearInterval() {
-    if (this.intervalId) {
-      clearInterval(this.intervalId);
-      this.intervalId = null;
-    }
   }
 }

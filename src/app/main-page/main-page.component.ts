@@ -6,6 +6,7 @@ import { CardMainComponent } from '../card-main/card-main.component';
 import { CategoryCardComponent } from '../category-card/category-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from '../services/api.service';
+
 @Component({
  selector: 'app-main-page',
  standalone: true,
@@ -17,15 +18,29 @@ import { ApiService } from '../services/api.service';
 export class MainPageComponent implements OnInit {
   games: any[] = [];
   categories: any[] = [];
-  card1: any = {};
-  card2: any = {};
-  card3: any = {};
-  card4: any = {};
-  card5: any = {};
-  card6: any = {};
-  
 
-  constructor(private apiService: ApiService) {}
+  activeCard: any | null = null; 
+  isHovered: boolean = false;
+  
+  currentGameIndex = 0;
+
+  indicators: number[] = [];
+
+  constructor(private apiService: ApiService) {
+    this.indicators = Array(this.games.length).fill(0).map((x, i) => i);
+  }
+
+  nextGame() {
+    this.currentGameIndex = (this.currentGameIndex + 1) % this.games.length;
+  }
+
+  prevGame() {
+    this.currentGameIndex = (this.currentGameIndex - 1 + this.games.length) % this.games.length;
+  }
+
+  goTo(index: number) {
+    this.currentGameIndex = index;
+  }
 
   ngOnInit(): void {
 
@@ -35,58 +50,34 @@ export class MainPageComponent implements OnInit {
 
     this.apiService.getGames().subscribe(data => {
       this.games = data;
+    });
 
-      this.card1 = this.games[0]; // Exemplo: primeiro jogo
-      this.card2 = this.games[1]; // Exemplo: segundo jogo
-      this.card3 = this.games[2]; // Exemplo: terceiro jogo
-      this.card4 = this.games[3];
+    this.initializeTabs();
+  }
+
+  initializeTabs(): void {
+    const tabs = document.querySelectorAll('.tab');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        this.clearActiveCard(); // Limpa o card ativo ao clicar em uma aba
+      });
     });
   }
 
-// options with default values
-options = {
-    defaultPosition: 1,
-    interval: 3000,
+  setActiveCard(card: any | null): void {
+    this.activeCard = card;
+    this.isHovered = true; // Mostra a home-right ao definir um card ati  
+  }
 
-    indicators: {
-        activeClasses: 'bg-white dark:bg-gray-800',
-        inactiveClasses:
-            'bg-white/50 dark:bg-gray-800/50 hover:bg-white dark:hover:bg-gray-800',
-        items: [
-            {
-                position: 0,
-                el: document.getElementById('carousel-indicator-1'),
-            },
-            {
-                position: 1,
-                el: document.getElementById('carousel-indicator-2'),
-            },
-            {
-                position: 2,
-                el: document.getElementById('carousel-indicator-3'),
-            },
-            {
-                position: 3,
-                el: document.getElementById('carousel-indicator-4'),
-            },
-        ],
-    },
+  // Limpa o card ativo e oculta a home-right
+  clearActiveCard(): void {
+  }
 
-    // callback functions
-    onNext: () => {
-        console.log('next slider item is shown');
-    },
-    onPrev: () => {
-        console.log('previous slider item is shown');
-    },
-    onChange: () => {
-        console.log('new slider item has been shown');
-    },
-};
-
-// instance options object
-instanceOptions = {
-  id: 'carousel-example',
-  override: true
-};
+  // Verifica se um card está ativo
+  isCardActive(card: any): boolean {
+    return this.activeCard === card && this.isHovered;
+  }
 }
