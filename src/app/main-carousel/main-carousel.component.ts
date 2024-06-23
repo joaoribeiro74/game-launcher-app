@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit, Input } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { MainPageComponent } from '../main-page/main-page.component';
-
+import { ApiService } from '../services/api.service';
 @Component({
   selector: 'app-main-carousel',
   standalone: true,
@@ -17,7 +17,10 @@ export class MainCarouselComponent implements OnInit {
   intervalId: any;
   interactionTimeout: any;
   indicators: any[] = [];
-  data: any;
+  @Input() image?: string;
+  @Input() name?: string;
+  @Input() price?: string;
+  @Input() screenshots?: string[];
 
   constructor() {}
 

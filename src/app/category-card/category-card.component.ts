@@ -10,10 +10,6 @@ import { MainPageComponent } from '../main-page/main-page.component';
   styleUrl: './category-card.component.css'
 })
 export class CategoryCardComponent {
-  @Input() title?: string;
-  @Input() price?: string;
   @Input() image?: string;
-  @Input() release?: string;
-  @Input() categories?: string;
-  @Input() category?: string;
+  @Input() name?: string;
 }

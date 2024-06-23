@@ -16,6 +16,7 @@ import { ApiService } from '../services/api.service';
 })
 export class MainPageComponent implements OnInit {
   games: any[] = [];
+  categories: any[] = [];
   card1: any = {};
   card2: any = {};
   card3: any = {};
@@ -28,6 +29,10 @@ export class MainPageComponent implements OnInit {
 
   ngOnInit(): void {
 
+    this.apiService.getCategories().subscribe(data => {
+      this.categories = data;
+    });
+
     this.apiService.getGames().subscribe(data => {
       this.games = data;
 
@@ -37,27 +42,6 @@ export class MainPageComponent implements OnInit {
       this.card4 = this.games[3];
     });
   }
-
-carouselElement = document.getElementById('carousel-example');
-
-items = [
-    {
-        position: 0,
-        el: document.getElementById('carousel-item-1'),
-    },
-    {
-        position: 1,
-        el: document.getElementById('carousel-item-2'),
-    },
-    {
-        position: 2,
-        el: document.getElementById('carousel-item-3'),
-    },
-    {
-        position: 3,
-        el: document.getElementById('carousel-item-4'),
-    },
-];
 
 // options with default values
 options = {

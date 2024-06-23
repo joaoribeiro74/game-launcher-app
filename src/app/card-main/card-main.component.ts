@@ -13,5 +13,4 @@ export class CardMainComponent {
   @Input() name?: string;
   @Input() price?: string;
   @Input() image?: string;
-  @Input() release?: string;
 }

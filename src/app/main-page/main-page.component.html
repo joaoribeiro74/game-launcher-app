@@ -15,16 +15,17 @@
             DESTAQUES
         </h1>
     </div>
-    <app-main-carousel></app-main-carousel>
-
+    <div *ngFor="let game of games">
+      <app-main-carousel [image]="game.image"
+      [name]="game.name"
+      [price]="game.price"
+      [screenshots]="game.screenshots"></app-main-carousel>
+    </div>
     <div class="mt-[30px]">
         <h1 class="flex mx-auto justify-start lg:w-1/2 text-gray-300 text-[14px] font-medium mb-[10px] tracking-wide">
             RECOMENDADOS
         </h1>
         <div class="flex flex-row lg:w-1/2 grid gap-3 lg:grid-cols-3 pb-2.5 mx-auto justify-center text-[12px]">
-            <div class="flex" *ngFor="let game of games">
-                <app-card-main [name]="game.name" [image]="game.image" [price]="game.price"></app-card-main>
-            </div>
             <div class="flex" *ngFor="let game of games">
                 <app-card-main [name]="game.name" [image]="game.image" [price]="game.price"></app-card-main>
             </div>
@@ -35,17 +36,8 @@
             NAVEGUE POR CATEGORIA
         </h1>
         <div class="flex flex-row lg:w-1/2 grid lg:grid-cols-4 gap-3 pb-2.5 mx-auto justify-center text-[12px]">
-            <div class="flex" *ngFor="let game of games">
-                <app-category-card [categories]="game.categories"></app-category-card>
-            </div>
-            <div class="flex" *ngFor="let game of games">
-                <app-category-card [categories]="game.categories"></app-category-card>
-            </div>
-            <div class="flex" *ngFor="let game of games">
-                <app-category-card [categories]="game.categories"></app-category-card>
-            </div>
-            <div class="flex" *ngFor="let game of games">
-                <app-category-card [categories]="game.categories"></app-category-card>
+            <div class="flex" *ngFor="let category of categories.slice(0, 4)">
+                <app-category-card [image]="category.image" [name]="category.name"></app-category-card>
             </div>
         </div>
     </div>
@@ -67,7 +59,7 @@
             RECÉM-ATUALIZADOS
         </h1>
         <div class="flex flex-row lg:w-1/2 grid gap-3 lg:grid-cols-4 pb-2.5 mx-auto justify-center text-[10px]">
-            <div class="flex" *ngFor="let game of games">
+            <div class="flex" *ngFor="let game of games.slice(0, 4)">
                 <app-card-main [name]="game.name" [image]="game.image" [price]="game.price"></app-card-main>
             </div>
         </div>
@@ -105,7 +97,7 @@
                         </span>
                       </div>
                       <div class="text-[#384959] text-[10px] font-bold">
-                        {{ game.categories.join(', ') }} <!-- Exibe as categorias separadas por vírgula -->
+                        {{ game.gameCategories.join(', ') }} <!-- Exibe as categorias separadas por vírgula -->
                       </div>
                     </div>
                   </div>
@@ -117,7 +109,7 @@
             </div>
             <!-- home-right -->
             <div class="home-right flex flex-col ml-[14px] w-[32%] bg-[#1C6C92]">
-              <div class="flex-1 relative" *ngFor="let game of games">
+              <div class="flex-1 relative" *ngFor="let game of games.slice(0, 6)">
                 <div class="absolute top-[9px] left-[16px] opacity-100 w-full">
                   <h2 class="text-[#263645] overflow-hidden whitespace-nowrap text-ellipsis">{{ game.name }}</h2>
                 </div>
