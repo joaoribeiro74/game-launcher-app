@@ -1,22 +1,42 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { MainCarouselComponent } from '../main-carousel/main-carousel.component';
-
-
+import { CardMainComponent } from '../card-main/card-main.component';
+import { CategoryCardComponent } from '../category-card/category-card.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ApiService } from '../services/api.service';
 @Component({
  selector: 'app-main-page',
  standalone: true,
- imports: [CommonModule, CardComponent, MainCarouselComponent],
+ imports: [CommonModule, CardComponent, MainCarouselComponent, CardMainComponent, CategoryCardComponent],
  templateUrl: './main-page.component.html',
- styleUrl: './main-page.component.css'
+ styleUrl: './main-page.component.css',
+ providers: [ApiService]
 })
-export class MainPageComponent {
- card1 = { title: 'GRAND THEFT AUTO V', price: 'R$159,90', image: 'assets/resources/images/GTA.png', release: '14 de abr. de 2015'};
- card2 = { title: 'The Witcher 3: Wild Hunt', price: 'R$129,90', image: 'assets/resources/images/TheW3.png', release: '18 de mai. de 2015'};
- card3 = { title: 'Fallout 4', price: 'R$159,90', image: 'assets/resources/images/Fallout4.png', release: '10 de nov. de 2015'};
- card4 = { title: 'Red Dead Redemption 2', price: 'R$299,90', image: 'assets/resources/images/RDR22.png', release: '5 de dez. de 2019'};
+export class MainPageComponent implements OnInit {
+  games: any[] = [];
+  card1: any = {};
+  card2: any = {};
+  card3: any = {};
+  card4: any = {};
+  card5: any = {};
+  card6: any = {};
+  
 
+  constructor(private apiService: ApiService) {}
+
+  ngOnInit(): void {
+
+    this.apiService.getGames().subscribe(data => {
+      this.games = data;
+
+      this.card1 = this.games[0]; // Exemplo: primeiro jogo
+      this.card2 = this.games[1]; // Exemplo: segundo jogo
+      this.card3 = this.games[2]; // Exemplo: terceiro jogo
+      this.card4 = this.games[3];
+    });
+  }
 
 carouselElement = document.getElementById('carousel-example');
 

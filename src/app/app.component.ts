@@ -10,16 +10,29 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { CardComponent } from './card/card.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { MainCarouselComponent } from './main-carousel/main-carousel.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CardMainComponent } from './card-main/card-main.component';
+import { ApiService } from './services/api.service';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterModule, ReactiveFormsModule, RouterOutlet, MainCarouselComponent, NavbarComponent, FooterComponent, TwoWayDatabindingComponent, LoginComponent, ChildComponent, RegisterComponent, CardComponent, MainPageComponent],
+  imports: [RouterModule, ReactiveFormsModule, RouterOutlet, MainCarouselComponent, NavbarComponent, FooterComponent, TwoWayDatabindingComponent, LoginComponent, ChildComponent, RegisterComponent, CardComponent, MainPageComponent, HttpClientModule, CardMainComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
+  providers: [ApiService]
 })
 export class AppComponent {
   title = 'game-launcher-app';
   
+  games: any[] = [];
+
+  constructor(private ApiService: ApiService) {}
+
+  ngOnInit(): void {
+    this.ApiService.getGames().subscribe(data => {
+      this.games = data;
+    });
+  }
 }
