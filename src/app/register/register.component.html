@@ -1,39 +1,39 @@
-<div class="flex flex-col justify-center pt-16  items-center">
-    <div class="lg:w-2/6 lg:px-10 sm:w-1/2">
-        <div class="flex flex-col mx-1 my-4">
-            <div class="uppercase text-white text-2xl font-bold">CADASTRAR-SE</div>
-        </div>
-        <div class="bg-[#171D25] rounded py-8">
-<div class="flex justify-center">
-    <form #form="ngForm" (ngSubmit)="onSubmit()" class="flex grid w-full max-w-lg pl-3 pr-3">
-        <div class="flex flex-wrap -mx-3 mb-4">
-          <div class="w-full px-3 mb-6 md:mb-0">
-            <label for="input-username" class="block uppercase tracking-wide text-white text-sm font-semibold mb-1.5">
-              Nome de usuário
-            </label>
-            <input id="input-username" name="input-username" type="text" [(ngModel)]="this.user.username"  pattern="^[ \wáàâãéèêíïóôõöúçñÁÀÂÃÉÈÊÍÏÓÔÕÖÚÇÑ\-]{2,32}$" #username="ngModel" required [ngClass]="{'border-rose-800': username.invalid && (username.dirty || username.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] validate" >
-            <div class="text-rose-800 uppercase font-semibold text-[10px]" [hidden]="username.valid || username.untouched">
-              O nome do seu perfil deve ter entre 2 e 32 caracteres.
+<div class="flex flex-col justify-center py-4 items-center">
+  <div class="lg:w-2/6 lg:px-10 sm:w-1/2">
+    <div class="flex flex-col mx-1 my-4">
+      <div class="uppercase text-white text-2xl font-bold">CADASTRAR-SE</div>
+    </div>
+    <div class="bg-[#171D25] rounded py-8">
+      <div class="flex justify-center">
+        <form #form="ngForm" (ngSubmit)="onSubmit()" class="flex grid w-full max-w-lg pl-3 pr-3">
+          <div class="flex flex-wrap -mx-3 mb-4">
+            <div class="w-full px-3 mb-6 md:mb-0">
+              <label for="input-username" class="block uppercase tracking-wide text-white text-sm font-semibold mb-1.5">
+                Nome de usuário
+              </label>
+              <input id="input-username" name="input-username" type="text" [(ngModel)]="user.username" pattern="^[ \wáàâãéèêíïóôõöúçñÁÀÂÃÉÈÊÍÏÓÔÕÖÚÇÑ\-]{2,32}$" #username="ngModel" required [ngClass]="{'border-rose-800': username.invalid && (username.dirty || username.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] validate">
+              <div class="text-rose-800 uppercase font-semibold text-[10px]" [hidden]="username.valid || username.untouched">
+                O nome do seu perfil deve ter entre 2 e 32 caracteres.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-wrap -mx-3 mb-4">
-          <div class="w-full px-3 mb-6 md:mb-0">
-            <label for="input-email" class="block uppercase tracking-wide text-white text-sm font-semibold mb-1.5">
-              Endereço de e-mail
-            </label>
-            <input id="input-email" name="input-email" type="email" [(ngModel)]="this.user.email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" #email="ngModel" required [ngClass]="{'border-rose-800': email.invalid && (email.dirty || email.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] focus:border-[#1C2C3C] validate">
-            <div class="text-rose-800 uppercase font-semibold text-[10px]" [hidden]="email.valid || email.untouched">
-              O e-mail deve ser válido.
+          <div class="flex flex-wrap -mx-3 mb-4">
+            <div class="w-full px-3 mb-6 md:mb-0">
+              <label for="input-email" class="block uppercase tracking-wide text-white text-sm font-semibold mb-1.5">
+                Endereço de e-mail
+              </label>
+              <input id="input-email" name="input-email" type="email" [(ngModel)]="user.email" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" #email="ngModel" required [ngClass]="{'border-rose-800': email.invalid && (email.dirty || email.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] focus:border-[#1C2C3C] validate">
+              <div class="text-rose-800 uppercase font-semibold text-[10px]" [hidden]="email.valid || email.untouched">
+                O e-mail deve ser válido.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="flex flex-wrap -mx-3 mb-4">
+          <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3 mb-6 md:mb-0">
               <label for="input-password" class="block uppercase tracking-wide text-white text-sm font-semibold mb-1.5">
                 Senha
               </label>
-              <input id="input-password" name="input-password" type="password" [(ngModel)]="this.user.password" pattern="^[a-zA-Z0-9_@#\\&\\$]{6,18}$" #password="ngModel" required  [ngClass]="{'border-rose-800': password.invalid && (password.dirty || password.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] validate">
+              <input id="input-password" name="input-password" type="password" [(ngModel)]="user.password" pattern="^[a-zA-Z0-9_@#\\&\\$]{6,18}$" #password="ngModel" required [ngClass]="{'border-rose-800': password.invalid && (password.dirty || password.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] validate">
               <div class="text-rose-800 uppercase font-semibold text-[10px]" [hidden]="password.valid || password.untouched">
                 A senha deve ter pelo menos 6 caracteres.
               </div>
@@ -41,22 +41,22 @@
           </div>
           <div class="flex flex-wrap -mx-3 mb-4">
             <div class="w-full px-3 mb-6 md:mb-0">
-              <label for="input-user-repassword" class="block uppercase tracking-wide text-white text-sm font-semibold mb-1.5" for="confirmPassword">
+              <label for="input-user-repassword" class="block uppercase tracking-wide text-white text-sm font-semibold mb-1.5">
                 Confirme sua senha
               </label>
-              <input id="input-user-repassword" name="input-user-repassword" type="password" [(ngModel)]="this.user.repassword" #repassword="ngModel" pattern="{{ password.value }}" required [ngClass]="{'border-rose-800': repassword.invalid && (repassword.dirty || repassword.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] validate" >
+              <input id="input-user-repassword" name="input-user-repassword" type="password" [(ngModel)]="user.repassword" #repassword="ngModel" [pattern]="user.password" required [ngClass]="{'border-rose-800': repassword.invalid && (repassword.dirty || repassword.touched || form.submitted)}" class="appearance-none block w-full bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded py-2 px-4 mb-1 leading-tight focus:outline-none focus:bg-[#1C2C3C] validate">
               <div class="text-rose-800 uppercase font-semibold text-[10px]" [hidden]="repassword.valid || repassword.untouched">
                 As senhas não coincidem.
               </div>
             </div>
           </div>
 
-        <div class="flex flex-col items-center pt-3">
-            <button type="submit" [disabled]="!form.invalid && !form.submitted" class="cursor-pointer px-8 py-3 rounded bg-gradient-to-r from-[#2C7CFC] to-[#04BCFC] text-white text-sm font-bold">CADASTRAR</button>
-        </div>
-        <a routerLink="/login" class="cursor-pointer uppercase text-white font-bold flex items-center justify-center underline decoration-1 mt-4 text-[10px]">Já possui conta? Entre agora</a>
-      </form>
+          <div class="flex flex-col items-center pt-3">
+            <button type="submit" [disabled]="form.invalid || form.submitted" class="cursor-pointer px-8 py-3 rounded bg-gradient-to-r from-[#2C7CFC] to-[#04BCFC] text-white text-sm font-bold">CADASTRAR</button>
+          </div>
+          <a routerLink="/login" class="cursor-pointer uppercase text-white font-bold flex items-center justify-center underline decoration-1 mt-4 text-[10px]">Já possui conta? Entre agora</a>
+        </form>
+      </div>
     </div>
-</div>
-</div>
+  </div>
 </div>

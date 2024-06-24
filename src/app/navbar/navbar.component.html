@@ -38,21 +38,27 @@
                 </div>
                 <div class="hidden sm:ml-6 md:block">
                   <div class="flex space-x-4">
-                    <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                  <ng-container *ngIf="!isLoginPage && !isRegisterPage">
-                    <a routerLink="/" class="text-gray-300 hover:text-white after:text-[#1a9fff] rounded-md px-3 py-2 text-base font-medium">LOJA</a>
-                    <a routerLink="/sobre" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">SOBRE</a>
-                    <a routerLink="/perfil" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">PERFIL</a>
-                  </ng-container>  
+                    <ng-container *ngIf="!isLoginPage && !isRegisterPage">
+                      <a routerLink="/" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOJA</a>
+                      <a routerLink="/sobre" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">SOBRE</a>
+                      <ng-container *ngIf="authService.isLoggedIn()">
+                        <a routerLink="/perfil" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">PERFIL</a>
+                      </ng-container>
+                      <ng-container *ngIf="!authService.isLoggedIn()">
+                        <a routerLink="/login" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">PERFIL</a>
+                      </ng-container>
+                    </ng-container>  
                   </div>
                 </div>
                 <div class="hidden sm:ml-6 md:block">
                   <div class="flex space-x-0">
-
-                    <ng-container *ngIf="!isLoginPage && !isRegisterPage">
-                      <a routerLink="/login" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOGIN</a>
-                      <span class="text-gray-300 hover:text-white rounded-md py-1.5 text-base font-medium">|</span>
-                      <a routerLink="/register" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">CADASTRO</a>
+                    <ng-container *ngIf="authService.isLoggedIn()">
+                      <button (click)="logout()" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOGOUT</button>
+                    </ng-container>
+                    <ng-container *ngIf="!authService.isLoggedIn()">
+                      <a [ngClass]="{'hidden': isLoginPage || isRegisterPage}" routerLink="/login" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOGIN</a>
+                      <span [ngClass]="{'hidden': isLoginPage || isRegisterPage}" class="text-gray-300 hover:text-white rounded-md py-1.5 text-base font-medium">|</span>
+                      <a [ngClass]="{'hidden': isLoginPage || isRegisterPage}" routerLink="/register" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">CADASTRO</a>
                     </ng-container>
                   </div>
                 </div>

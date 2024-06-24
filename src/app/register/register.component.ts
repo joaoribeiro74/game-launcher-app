@@ -1,7 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormBuilder, FormsModule, FormGroup, Validators, ReactiveFormsModule, AbstractControl, ValidationErrors } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Router } from '@angular/router';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-register',
@@ -18,16 +19,16 @@ export class RegisterComponent {
     repassword: ''
   };
 
-  onSubmit() {
-    // Lógica para validar e salvar dados no localStorage
-    if (this.user.password !== this.user.repassword) {
-      alert('Senhas não coincidem!');
-      return;
-    }
+  constructor(private authService: AuthService, private router: Router) {}
 
-    if (this.user.username && this.user.email && this.user.password) {
-      localStorage.setItem('user', JSON.stringify(this.user));
+  onSubmit(): void {
+    // Armazenar dados no localStorage
+    localStorage.setItem('userData', JSON.stringify(this.user));
+
+    const registered = this.authService.register(this.user);
+    if (registered) {
       alert('Usuário registrado com sucesso');
+      this.router.navigate(['']); // Redireciona para a página main-page após o cadastro
     } else {
     }
   }
