@@ -10,3 +10,22 @@
   }
 
 html {background-color: #1C2C3C;}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Preenche toda a altura da viewport */
+  margin: 0;
+}
+
+main {
+  flex: 1; /* Ocupa todo o espaço disponível restante */
+}
+
+footer {
+  background-color: #171d25;
+  color: #bababa;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto; /* Empurra o footer para o final da viewport */
+}
