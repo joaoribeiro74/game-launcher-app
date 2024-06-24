@@ -1,0 +1,218 @@
+{
+    "games": [
+      { 
+        "name": "Grand Theft Auto V",
+        "price": "R$159,90",
+        "image": "/assets/resources/images/GTA.png",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_1487c2c7ddd9a1ae6b55f7e50d5d63ada6915921.1920x1080.jpg?t=1716224849",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_e929649b2b98ad76795d92d8489470bc5dbffddb.1920x1080.jpg?t=1716224849",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_e65286ab9bba88c6d0d9ad30cf6b5d34578c51ce.1920x1080.jpg?t=1716224849",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_89040ec8716e6422260580640f485f8c825cae62.1920x1080.jpg?t=1716224849"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256921430/movie480_vp9.webm?t=1671116396",
+        "releaseDate": "14 abr. de 2015",
+        "shortDescription": "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).",
+        "gameCategories": [
+            "Mundo aberto",
+            "Ação",
+            "Crime",
+            "Multijogador",
+            "Corridas"
+        ],
+        "developer": "Rockstar North",
+        "publisher": "Rockstar Games",
+        "aboutApp": [
+            "Quando um malandro de rua, um ladrão de bancos aposentado e um psicopata aterrorizante se envolvem com alguns dos criminosos mais assustadores e loucos do submundo, o governo dos EUA e a indústria do entretenimento, eles devem realizar golpes ousados para sobreviver nessa cidade implacável onde não podem confiar em ninguém, nem mesmo um no outro.",
+            "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).",
+            "O jogo oferece uma ampla seleção de opções de personalização específicas para o PC, com mais de 25 configurações separadas para qualidade de textura, sombreamentos, suavização de bordas e muito mais. Além disso, ele contém diversas opções de personalização dos controles de mouse e teclado. Entre as opções adicionais estão a densidade da população, o controle do tráfego de carros e pedestres, suporte para dois ou três monitores, compatibilidade com telas 3D e suporte para controle plug-and-play."
+        ]
+       },
+
+       { 
+        "name": "Fallout 4",
+        "price": "R$59,99",
+        "image": "/assets/resources/images/Fallout4.png",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_f7861bd71e6c0c218d8ff69fb1c626aec0d187cf.1920x1080.jpg?t=1717972401",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_910437ac708aed7c028f6e43a6224c633d086b0a.1920x1080.jpg?t=1717972401",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_827a6892a7983180bfd11bf02b79f060ecc42c0d.1920x1080.jpg?t=1717972401",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_cd83d21b82e4c4e9a6d76edc98a8c2b70b1b5e9d.1920x1080.jpg?t=1717972401"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256658080/movie480.webm?t=1447378809",
+        "releaseDate": "1 nov. de 2015",
+        "shortDescription": "Bethesda Game Studios, os premiados criadores de Fallout 3 e The Elder Scrolls V: Skyrim, dão as boas-vindas ao mundo de Fallout 4 – o jogo mais ambicioso de todos os tempos e a próxima geração de jogos de mundo aberto.",
+        "gameCategories": [
+            "Mundo aberto",
+            "Pós-Apocalíptico",
+            "Um Jogador",
+            "Exploração",
+            "RPG"
+        ],
+        "developer": "Bethesda Game Studios",
+        "publisher": "Bethesda Softworks",
+        "aboutApp": [
+            "Bethesda Game Studios, os premiados criadores de Fallout 3 e The Elder Scrolls V: Skyrim, dão as boas-vindas ao mundo de Fallout 4 – o jogo mais ambicioso de todos os tempos e a próxima geração de jogos de mundo aberto.",
+            "Como único sobrevivente do Vault 111, você entra em um mundo destruído pela guerra nuclear. Cada segundo é uma luta pela sobrevivência e cada escolha é sua. Só você pode reconstruir e determinar o destino de Wasteland. Bem-vindo a casa."
+        ]
+       },
+
+       { 
+        "name": "The Witcher 3: Wild Hunt",
+        "price": "R$129,99",
+        "image": "/assets/resources/images/TheW3.png",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg?t=1716793585",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg?t=1716793585",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.1920x1080.jpg?t=1716793585",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_608af6cfe0eab3f37265550b391732a3e88d1a4f.1920x1080.jpg?t=1716793585"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256920685/movie480_vp9.webm?t=1670976368",
+        "releaseDate": "18 mai. de 2015",
+        "shortDescription": "Você é Geralt de Rívia, mercenário matador de monstros. Você está em um continente devastado pela guerra e infestado de monstros para você explorar à vontade. Sua tarefa é encontrar Ciri, a Criança da Profecia — uma arma viva que pode alterar a forma do mundo.",
+        "gameCategories": [
+            "Mundo aberto",
+            "RPG",
+            "Boa Trama",
+            "Fantasia",
+            "Aventura"
+        ],
+        "developer": "CD PROJEKT RED",
+        "publisher": "CD PROJEKT RED",
+        "aboutApp": [
+            "Você é Geralt de Rívia, mercenário matador de monstros. O lugar é um continente devastado pela guerra e infestado de monstros que você pode explorar à vontade. Seu contrato atual? Encontrar Ciri, a Criança da Profecia — uma arma viva que pode alterar a forma do mundo.",
+            "Atualizado para a versão mais recente, The Witcher 3: Wild Hunt vem com novos recursos e itens, incluindo o Modo Fotografia integrado, espadas, armaduras, aparências alternativas inspiradas na série The Witcher da Netflix e muito mais!",
+            "Contemple o mundo sombrio de fantasia do Continente como nunca antes! Esta edição de The Witcher 3: Wild Hunt foi aprimorada com inúmeras melhorias visuais e técnicas, inclusive com nível de detalhes elaborado, uma variedade de modificações criadas e recém-desenvolvidas pela comunidade para o jogo, traçado de raios em tempo real e muito mais — especialmente para o desempenho dos PCs mais modernos."
+        ]
+       },
+
+       { 
+        "name": "DEATH STRANDING",
+        "price": "R$159,99",
+        "image": "/assets/resources/images/DS.png",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_f64a1140651ff5af30eb63bb6e5b41753d00a98e.1920x1080.jpg?t=1718100326",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_d47bde2e349606b3ef1f641e2d8fb7ccf1adba77.1920x1080.jpg?t=1718100326",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_87653eb3d360766a994adccd82767b34961b37a5.1920x1080.jpg?t=1718100326",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_4ed01191432b0732c4d06dca776f0142bb444a78.1920x1080.jpg?t=1718100326"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256878920/movie480_vp9.webm?t=1683196663",
+        "releaseDate": "30 mar. de 202",
+        "shortDescription": "Do lendário diretor Hideo Kojima, surge uma experiência que desafia gêneros, ainda maior em DIRECTOR’S CUT. Jogando como Sam Bridges, sua missão é entregar esperança à humanidade ao conectar os sobreviventes de uma América devastada.",
+        "gameCategories": [
+            "Mundo aberto",
+            "Pós-Apocalíptico",
+            "Boa Trama",
+            "Um Jogador",
+            "Ação"
+        ],
+        "developer": "KOJIMA PRODUCTIONS",
+        "publisher": "505 Games",
+        "aboutApp": [
+            "Jogando como Sam Bridges, sua missão é entregar esperança à humanidade ao conectar os sobreviventes de uma América devastada. Você conseguirá reunir este mundo destruído, um passo de cada vez?",
+            "DEATH STRANDING DIRECTOR’S CUT no PC inclui ALTA TAXA DE QUADROS, MODO FOTO e SUPORTE A MONITORES ULTRAWIDE. Também inclui conteúdo crossover da série HALF-LIFE, da Valve Corporation; e de Cyberpunk 2077, da CD Projekt Red. Esteja conectado a jogadores no mundo todo com o Social Strand System™.!"
+        ]
+       },
+
+       { 
+        "name": "Red Dead Redemption 2",
+        "price": "R$299,90",
+        "image": "/assets/resources/images/RDR22.png",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1714055653",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.1920x1080.jpg?t=1714055653",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg?t=1714055653",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1714055653"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256768244/movie480.webm?t=1574881606",
+        "releaseDate": "5 dez. de 2019",
+        "shortDescription": "Red Dead Redemption 2, a épica aventura de mundo aberto da Rockstar Games aclamada pela crítica e o jogo mais bem avaliado desta geração de consoles, agora chega aprimorado para PC com conteúdos inéditos no Modo História, melhorias visuais e muito mais.",
+        "gameCategories": [
+            "Mundo aberto",
+            "Ação",
+            "Crime",
+            "Boa Trama",
+            "Velho Oeste"
+        ],
+        "developer": "Rockstar Games",
+        "publisher": "Rockstar Games",
+        "aboutApp": [
+            "Estados Unidos, 1899.",
+            "Arthur Morgan e a gangue Van der Linde são bandidos em fuga. Com agentes federais e os melhores caçadores de recompensas no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos. Conforme divisões internas profundas ameaçam despedaçar a gangue, Arthur deve fazer uma escolha entre os seus próprios ideais e a lealdade à gangue que o criou.",
+            "Agora com conteúdo adicional no Modo História e um Modo Foto repleto de recursos, Red Dead Redemption 2 também inclui acesso gratuito ao mundo compartilhado de Red Dead Online. Nele, os jogadores assumem uma diversidade de ofícios para construir suas próprias trajetórias na fronteira, seja perseguindo criminosos procurados como Caçador de Recompensa, estabelecendo um negócio como Mercador, escavando tesouros exóticos como Colecionador ou operando uma destilaria subterrânea como Moonshiner, e muito mais.",
+            "Com novas melhorias gráficas e técnicas que tornam o jogo mais imersivo, Red Dead Redemption 2 para PC aproveita ao máximo a potência do PC para dar vida a cada canto deste mundo gigantesco, rico e detalhado, incluindo maiores distâncias de renderização; iluminação global de maior qualidade e oclusão do ambiente para melhorar a iluminação do dia e da noite; melhorias nos reflexos e sombras mais fortes e de maior resolução a todas as distâncias; texturas de árvore tesseladas e melhorias nas texturas de grama e pelo, tornando todas as plantas e animais mais realistas.",
+            "Red Dead Redemption 2 para PC também oferece suporte a HDR e a monitores de ponta com resolução 4K ou superior, configurações com vários monitores, widescreen, taxas de quadros mais rápidas, entre outras opções."
+        ]
+       },
+
+       { 
+        "name": "Stardew Valley",
+        "price": "R$24,99",
+        "image": "/assets/resources/images/Stardew.png",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1711128146",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1711128146",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_c32865684c8d45b3f57fbb1e93bfa47c2a845cbf.1920x1080.jpg?t=1711128146",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_64d942a86eb527ac817f30cc04406796860a6fc1.1920x1080.jpg?t=1711128146"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256660296/movie480.webm?t=1454099186",
+        "releaseDate": "26 fev. de 2016",
+        "shortDescription": "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?",
+        "gameCategories": [
+            "Simulador",
+            "Multijogador",
+            "RPG",
+            "Agricultura",
+            "Relaxante"
+        ],
+        "developer": "ConcernedApe",
+        "publisher": "ConcernedApe",
+        "aboutApp": [
+            "Você está de mudança para o Vale...",
+            "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?",
+            "Crie a fazenda dos seus sonhos! Construa sua fazenda do zero em 1 de 5 mapas diferentes.",
+            "Domine as técnicas da agropecuária! Crie animais, plantações, máquinas úteis e muito mais.",
+            "Faça parte de uma comunidade local! Faça amizade com mais de 30 moradores diferentes de Pelican Town."
+        ]
+       }
+    ],
+
+    "categories": [
+        {
+            "name": "Mundo Aberto",
+            "image": "/assets/resources/images/Mundo.png"
+        },
+        {
+            "name": "Corrida",
+            "image": "/assets/resources/images/Corrida.png"
+        },
+        {
+            "name": "Esportes",
+            "image": "/assets/resources/images/Esporte.png"
+        },
+        {
+            "name": "Aventura",
+            "image": "/assets/resources/images/Aventura.png"
+        },
+        {
+            "name": "RPG",
+            "image": "https://store.steampowered.com/categories/homepageimage/category/rpg?cc=us&l=brazilian"
+        },
+        {
+            "name": "Sobrevivência",
+            "image": "https://store.steampowered.com/categories/homepageimage/category/survival?cc=us&l=brazilian"
+        },
+        {
+            "name": "Ação",
+            "image": "https://store.steampowered.com/categories/homepageimage/category/action?cc=us&l=brazilian"
+        },
+        {
+            "name": "Simulação",
+            "image": "https://store.steampowered.com/categories/homepageimage/category/simulation?cc=us&l=brazilian"
+        },
+        {
+            "name": "Boa Trama",
+            "image": "https://store.steampowered.com/categories/homepageimage/category/story_rich?cc=us&l=brazilian"
+        }    
+    ]
+  }
