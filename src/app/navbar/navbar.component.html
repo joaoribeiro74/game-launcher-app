@@ -24,7 +24,7 @@
                 </button>
               </div>
               <div class="flex flex-1 items-center lg:justify-between justify-center">
-                <div class="flex flex-shrink-0 items-center" routerLink="/" [ngClass]="{'mx-auto': isLoginPage || isRegisterPage}">
+                <div class="flex flex-shrink-0 items-center cursor-pointer" routerLink="/" [ngClass]="{'mx-auto': isLoginPage || isRegisterPage}">
                   <svg width="150" height="70" viewBox="0 0 167 71" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                       <rect width="167" height="71" fill="url(#pattern0_117_473)"/>
                       <defs>
@@ -41,19 +41,14 @@
                     <ng-container *ngIf="!isLoginPage && !isRegisterPage">
                       <a routerLink="/" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOJA</a>
                       <a routerLink="/sobre" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">SOBRE</a>
-                      <ng-container *ngIf="authService.isLoggedIn()">
-                        <a routerLink="/perfil" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">PERFIL</a>
-                      </ng-container>
-                      <ng-container *ngIf="!authService.isLoggedIn()">
-                        <a routerLink="/login" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">PERFIL</a>
-                      </ng-container>
+                      <a [routerLink]="authService.isLoggedIn() ? '/perfil' : '/login'" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">PERFIL</a>
                     </ng-container>  
                   </div>
                 </div>
                 <div class="hidden sm:ml-6 md:block">
                   <div class="flex space-x-0">
                     <ng-container *ngIf="authService.isLoggedIn()">
-                      <button (click)="logout()" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOGOUT</button>
+                      <button [ngClass]="{'hidden': isLoginPage || isRegisterPage}" (click)="logout()" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOGOUT</button>
                     </ng-container>
                     <ng-container *ngIf="!authService.isLoggedIn()">
                       <a [ngClass]="{'hidden': isLoginPage || isRegisterPage}" routerLink="/login" class="text-gray-300 hover:text-white rounded-md px-3 py-2 text-base font-medium">LOGIN</a>

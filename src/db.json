@@ -174,6 +174,148 @@
             "Domine as técnicas da agropecuária! Crie animais, plantações, máquinas úteis e muito mais.",
             "Faça parte de uma comunidade local! Faça amizade com mais de 30 moradores diferentes de Pelican Town."
         ]
+       },
+       { 
+        "name": "Lethal Company",
+        "price": "R$32,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1700231592",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/ss_78075e9a94675823024f12fce9d69b243cca94f8.1920x1080.jpg?t=1700231592",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/ss_51860be59845771c01a3a4d9ab1ebf773f16fef5.1920x1080.jpg?t=1700231592",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/ss_08fa3ef83b6eb70313119096f82285fa411f02e5.1920x1080.jpg?t=1700231592",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/ss_568d97dfa9d8d3128157d84c9437030ccc1011b0.1920x1080.jpg?t=1700231592"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256961309/movie480_vp9.webm?t=1690909590",
+        "releaseDate": "23 out. de 2023",
+        "shortDescription": "Um horror cooperativo sobre vasculhar luas abandonadas para vender sucata para a Companhia.",
+        "gameCategories": [
+            "Terror",
+            "Multijogador",
+            "Exploração",
+            "Primeira Pessoa",
+            "Engraçado"
+        ],
+        "developer": "Zeekerss",
+        "publisher": "Zeekerss",
+        "aboutApp": [
+            "Você é um trabalhador contratado pela Empresa. Seu trabalho é coletar sucata de luas abandonadas e industrializadas para atingir a cota de lucro da Empresa. Você pode usar o dinheiro que ganha para viajar para luas novas com maiores riscos e recompensas – ou pode comprar ternos e decorações elegantes para seu navio. Experimente a natureza, examinando qualquer criatura que encontrar para adicioná-la ao seu bestiário. Explore o maravilhoso ar livre e vasculhe seus pontos fracos abandonados, de aço e concreto. Apenas nunca perca a cota.",
+            "Esses perigos atacam os vulneráveis ​​e solitários, e a proteção da sua tripulação pode ser sua única esperança. Você pode guiar seus tripulantes de seu navio, usando o radar para chamar armadilhas e usando o terminal do navio para acessar portas trancadas remotamente – ou vocês podem entrar todos juntos. A loja da Companhia possui muitas ferramentas úteis para o trabalho, incluindo luzes, pás, walkie talkies, granadas de efeito moral ou caixas de som.",
+            "As coisas ficam perigosas à noite. Comunique-se com seus tripulantes para levar todos os objetos de valor para o navio antes que as coisas fiquem muito perigosas e tente não deixar ninguém para trás."
+        ]
+       },
+       { 
+        "name": "Among Us",
+        "price": "R$14,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1718741655",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/ss_b7374128e5b786a302a716bca038d604b00ffe46.1920x1080.jpg?t=1718741655",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/ss_17be75e178e3520c986504504ada8535de19cc0d.1920x1080.jpg?t=1718741655",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/ss_1fbd9dc9fd6a2710d233a088ef426a6d78fcf884.1920x1080.jpg?t=1718741655",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/ss_a1872c1c594ad4e5885d248516919d85243d9c1f.1920x1080.jpg?t=1718741655"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256978016/movie480_vp9.webm?t=1698177291",
+        "releaseDate": "16 nov. de 2018",
+        "shortDescription": "Um jogo de trabalho em equipe e trairagem online ou em rede local para 4 a 15 jogadores... no espaço!",
+        "gameCategories": [
+            "Sobrevivência",
+            "Multijogador",
+            "Engraçado",
+            "Ação",
+            "2D"
+        ],
+        "developer": "Innersloth",
+        "publisher": "Innersloth",
+        "aboutApp": [
+            "Boas-vindas, recrutas!",
+            "Venham embarcar no novo mapa de Among Us: Airship! Trabalhem em equipe na nave para executar o maior dos planos... Se vai ser como Tripulante ou Impostor já são outros quinhentos.",
+            "Jogue com 4 a 15 jogadores online ou na sua rede Wi-Fi enquanto prepara sua nave para decolar, mas cuidado! Um ou mais jogadores aleatórios da Tripulação são Impostores e estão doidos pra matar geral!",
+            "Por ser um jogo em grupo, recomendamos que você jogue com seus amigos em rede, ou online com bate-papo por voz. Aproveite o suporte multiplataforma para jogar no Android, iOS e PC."
+        ]
+       },
+       { 
+        "name": "Tom Clancy's Rainbow Six® Siege",
+        "price": "R$84,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg?t=1716985808",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/ss_3eff8247a59ebc718e87753fd17c4d0321f03ebc.1920x1080.jpg?t=1716985808",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/ss_39e8d35eea7d67d74e84a6de48c351512c64ec86.1920x1080.jpg?t=1716985808",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/ss_5f886d728ff95bbcba1cc4ec5201880c8a65d4cc.1920x1080.jpg?t=1716985808",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/ss_187d5dbe7947172ff707c264a3f0c75f17a266b8.1920x1080.jpg?t=1716985808"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256988531/movie480_vp9.webm?t=1702416326",
+        "releaseDate": "1 dez. de 2015",
+        "shortDescription": "Tom Clancy's Rainbow Six® Siege é um jogo de tiro tático em equipes, realista e de elite, no qual planejamento e execução superiores triunfam.",
+        "gameCategories": [
+            "FPS",
+            "Tático",
+            "Multijogador",
+            "Tiro",
+            "Competitivo"
+        ],
+        "developer": "Ubisoft Montreal",
+        "publisher": "Ubisoft",
+        "aboutApp": [
+            "Tom Clancy's Rainbow Six® Siege é um jogo de tiro tático em equipes, realista e de elite, no qual planejamento e execução superiores triunfam. Possui jogabilidade de 5v5, ataque vs. defesa e combates intensos de curta distância em ambientes destrutíveis.",
+            "Na defesa, coordene com sua equipe para transformar seu ambiente em fortalezas. Crie armadilhas, fortificações e sistemas defensivos para prevenir invasões do inimigo. No ataque, lidere sua equipe por corredores apertados, portas com barricadas e paredes reforçadas. Combine mapas táticos, drones de observação, rapel e mais, a fim de planejar, atacar e dispersar qualquer situação.",
+            "Escolha entre dezenas de agentes de forças especiais, altamente treinados, de todo o mundo. Use as mais novas tecnologias para rastrear o movimento inimigo. Destrua paredes para abrir novas linhas de fogo. Invada pelo teto ou pelo chão para criar novos pontos de acesso. Use todas as armas e gadgets do seu arsenal mortal para encontrar, manipular e destruir seus inimigos e o ambiente ao redor deles.",
+            "Experimente novas estratégias e táticas enquanto Rainbow Six Siege evolui com o tempo. Mude as regras de Siege com cada atualização incluindo novos agentes, armas, gadgets e mapas. Evolua junto com seus amigos em um ambiente sempre em mudança e tornem-se os agentes mais experientes e perigosos que existem."
+        ]
+       },
+       { 
+        "name": "The Last of Us™ Part I",
+        "price": "R$249,90",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1717621627",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_ec1a71230d4fb477282fa7f25688af37b702ce49.1920x1080.jpg?t=1717621627",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_e67d2ca76b0c8985a3615afb38c21e893df73272.1920x1080.jpg?t=1717621627",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_1d4757f62cb17a674f451ab18136a87fe5959ad5.1920x1080.jpg?t=1717621627",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_abc373417afe2172ddf7b6d91442a14366a46975.1920x1080.jpg?t=1717621627"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256936983/movie480_vp9.webm?t=1680015334",
+        "releaseDate": "28 mar. de 2023",
+        "shortDescription": "Conheça a história emocionante e os personagens inesquecíveis de The Last of Us™, vencedor de mais de 200 prêmios de Jogo do Ano.",
+        "gameCategories": [
+            "Tiro",
+            "Boa Trama",
+            "Terror",
+            "Pós-Apocalíptico",
+            "Sobrevivência"
+        ],
+        "developer": "Naughty Dog LLC",
+        "publisher": "PlayStation Publishing LLC",
+        "aboutApp": [
+            "Em uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta, Joel, um protagonista abatido, é contratado para tirar uma garota de 14 anos, Ellie, de uma zona de quarentena militar. No entanto, o que começa como um pequeno serviço se transforma em uma jornada brutal através do país.",
+            "Inclui a campanha de The Last of Us e o aclamado capítulo anterior à trama, Left Behind, que explora os eventos que mudaram para sempre as vidas de Ellie e sua melhor amiga, Riley."
+        ]
+       },
+       { 
+        "name": "EA SPORTS FC™ 24",
+        "price": "R$359,00",
+        "image": "/assets/resources/images/EAFC.png",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_f3d31c7cffc2a6ab42fb76aaac2bc9d5258bc142.1920x1080.jpg?t=1718274603",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_6c1ef918ffe94050e72dcb2cfad3a95ee3d69f08.1920x1080.jpg?t=1718274603",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_855738ea72e6f90ee0e0b0cedba55848423389e1.1920x1080.jpg?t=1718274603",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_b68a973175bebbdf7a189efa43c927899dc95240.1920x1080.jpg?t=1718274603"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256968596/movie480_vp9.webm?t=1702408153",
+        "releaseDate": "29 set. de 2023",
+        "shortDescription": "O EA SPORTS FC™ 24 traz o Jogo de Todo Mundo: a experiência mais realista de futebol com o HyperMotionV, PlayStyles otimizada pela Opta, e uma Frostbite™ Engine melhorada.",
+        "gameCategories": [
+            "Futebol",
+            "Esportes",
+            "Multijogador",
+            "Competitivo",
+            "3D"
+        ],
+        "developer": "EA Canada & Ea Romania",
+        "publisher": "Electronic Arts",
+        "aboutApp": [
+            "O EA SPORTS FC™ 24 é a experiência de futebol mais autêntica de todos os tempos, com mais de 19.000 atletas com licença, 700 times, 30 ligas e mais de 300 parceiros globais no Jogo de Todo Mundo.",
+            "A tecnologia HyperMotionV captura o jogo como ele é realmente, usando dados volumétricos de mais de 180 partidas de futebol profissional masculino e feminino para garantir uma movimentação autêntica.",
+            "Dê boas-vindas ao futebol feminino no Ultimate Team™ e monte seu time dos sonhos com ligas e competições femininas, incluindo WSL, NWSL, DIF, UWCL, Frauen Bundesliga e Liga F.",
+            "Crie e implemente suas táticas com recursos de gerenciamento modernos na Carreira de Manager, ou pavimente seu caminho para a glória com novos recursos de Agente de Jogador na Carreira de Jogador."
+        ]
        }
     ],
 
@@ -213,6 +355,10 @@
         {
             "name": "Boa Trama",
             "image": "https://store.steampowered.com/categories/homepageimage/category/story_rich?cc=us&l=brazilian"
-        }    
+        },
+        {
+            "name": "Terror",
+            "image": "https://store.steampowered.com/categories/homepageimage/category/horror?cc=us&l=brazilian"
+        }
     ]
   }

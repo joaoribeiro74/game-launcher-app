@@ -6,11 +6,14 @@ import { CardMainComponent } from '../card-main/card-main.component';
 import { CategoryCardComponent } from '../category-card/category-card.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from '../services/api.service';
+import { ProfileComponent } from '../profile/profile.component';
+import { RouterModule } from '@angular/router';
+import { AuthService } from '../services/auth.service';
 
 @Component({
  selector: 'app-main-page',
  standalone: true,
- imports: [CommonModule, CardComponent, MainCarouselComponent, CardMainComponent, CategoryCardComponent],
+ imports: [CommonModule, CardComponent, MainCarouselComponent, CardMainComponent, CategoryCardComponent, ProfileComponent, RouterModule],
  templateUrl: './main-page.component.html',
  styleUrl: './main-page.component.css',
  providers: [ApiService]
@@ -26,16 +29,34 @@ export class MainPageComponent implements OnInit {
 
   indicators: number[] = [];
 
-  constructor(private apiService: ApiService) {
+  constructor(private apiService: ApiService, public authService: AuthService) {
     this.indicators = Array(this.games.length).fill(0).map((x, i) => i);
   }
 
+  updateCurrentGameIndex() {
+    if (this.currentGameIndex >= 10) {
+      this.currentGameIndex = 0;
+    }
+  }
+
   nextGame() {
-    this.currentGameIndex = (this.currentGameIndex + 1) % this.games.length;
+    if (this.currentGameIndex < Math.min(this.games.length, 10) - 1) {
+      this.currentGameIndex++;
+    } else {
+      this.currentGameIndex = 0;
+    }
   }
 
   prevGame() {
-    this.currentGameIndex = (this.currentGameIndex - 1 + this.games.length) % this.games.length;
+    if (this.currentGameIndex > 0) {
+      this.currentGameIndex--;
+    } else {
+      this.currentGameIndex = Math.min(this.games.length, 10) - 1;
+    }
+  }
+
+  setCurrentGameIndex(index: number) {
+    this.currentGameIndex = index;
   }
 
   goTo(index: number) {
@@ -43,6 +64,7 @@ export class MainPageComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.updateCurrentGameIndex();
 
     this.apiService.getCategories().subscribe(data => {
       this.categories = data;
