@@ -12,4 +12,5 @@ import { MainPageComponent } from '../main-page/main-page.component';
 export class CategoryCardComponent {
   @Input() image?: string;
   @Input() name?: string;
+  @Input() categories:{ image: string, name: string }[] = [];
 }

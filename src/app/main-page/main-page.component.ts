@@ -9,11 +9,12 @@ import { ApiService } from '../services/api.service';
 import { ProfileComponent } from '../profile/profile.component';
 import { RouterModule } from '@angular/router';
 import { AuthService } from '../services/auth.service';
+import { SliderComponent } from '../slider/slider.component';
 
 @Component({
  selector: 'app-main-page',
  standalone: true,
- imports: [CommonModule, CardComponent, MainCarouselComponent, CardMainComponent, CategoryCardComponent, ProfileComponent, RouterModule],
+ imports: [CommonModule, CardComponent, MainCarouselComponent, CardMainComponent, CategoryCardComponent, ProfileComponent, RouterModule, SliderComponent],
  templateUrl: './main-page.component.html',
  styleUrl: './main-page.component.css',
  providers: [ApiService]
@@ -26,6 +27,7 @@ export class MainPageComponent implements OnInit {
   isHovered: boolean = false;
   
   currentGameIndex = 0;
+  currentIndex = 0;
 
   indicators: number[] = [];
 
