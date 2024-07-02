@@ -3,10 +3,11 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { MainPageComponent } from '../main-page/main-page.component';
 import { ApiService } from '../services/api.service';
+import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-main-carousel',
   standalone: true,
-  imports: [CommonModule, CardComponent, MainPageComponent],
+  imports: [CommonModule, CardComponent, MainPageComponent, RouterModule],
   templateUrl: './main-carousel.component.html',
   styleUrl: './main-carousel.component.css'
 })

@@ -1,7 +1,7 @@
 <div id="default-carousel" class="relative w-1/2 mx-auto hidden lg:block" data-carousel="slide">
     <!-- Carousel wrapper -->
     <div class="relative h-[353px] overflow-hidden shadow-custom">
-        <a class="hidden flex duration-700 ease-in-out cursor-pointer" data-carousel-item>
+        <a [routerLink]="['/game', name]" class="hidden flex duration-700 ease-in-out cursor-pointer" data-carousel-item>
             <div class="relative shrink-0 z-10 mr-[10px] w-[616px] h-[353px] shadow-[0_0_10px_5px_#000]">
                 <!-- Imagem principal -->
                 <img class="h-full" [src]="image">

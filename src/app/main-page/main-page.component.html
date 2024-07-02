@@ -106,18 +106,15 @@
       <div class="w-full overflow-visible bg-[#2A475E] min-h-full pb-10 pt-1">
           <div class="lg:w-1/2 md:w-4/5 md:mx-auto mx-2 flex flex-col">
               <div class="tabs mb-[8px] -mt-[38px] flex flex-row">
-                  <div id="best-sellers" class="whitespace-nowrap font-bold text-[12px] tab active">
+                  <div id="best-sellers" class="whitespace-nowrap font-bold text-[12px]">
                       <div class="text-white bg-[#2A475E] py-2 px-3 rounded-t-[5px] cursor-pointer">MAIS VENDIDOS</div>
                   </div>
-                  <div id="popular-news" class="whitespace-nowrap font-bold text-[12px] tab">
-                      <div class="text-[#4f94bc] bg-transparent py-2 px-3 rounded-t-[5px] cursor-pointer">NOVIDADES POPULARES</div>
-                  </div>
               </div>
-              <div class="tabs-content flex">
-                  <div class="tab-items flex flex-col lg:w-2/3 w-full">
+              <div class="flex">
+                  <div class="flex flex-col lg:w-2/3 w-full">
                       <!-- Cards dinâmicos -->
                       <ng-container *ngFor="let game of games.slice(0, 10)" class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
-                          <a class="relative block h-[69px] mb-[5px] no-underline flex items-center justify-between cursor-pointer"
+                          <a [routerLink]="['/game', game.name]" class="relative block h-[69px] mb-[5px] no-underline flex items-center justify-between cursor-pointer"
                               [ngClass]="{
                               'bg-[#1C6C92] lg:ml-[14px]': activeCard === game && isHovered,
                               'bg-[#1C2C3C]': activeCard !== game || !isHovered,

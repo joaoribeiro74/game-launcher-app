@@ -7,7 +7,7 @@ import { CategoryCardComponent } from '../category-card/category-card.component'
 import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from '../services/api.service';
 import { ProfileComponent } from '../profile/profile.component';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 import { SliderComponent } from '../slider/slider.component';
 
@@ -31,7 +31,7 @@ export class MainPageComponent implements OnInit {
 
   indicators: number[] = [];
 
-  constructor(private apiService: ApiService, public authService: AuthService) {
+  constructor(private apiService: ApiService, public authService: AuthService, private router: Router) {
     this.indicators = Array(this.games.length).fill(0).map((x, i) => i);
   }
 

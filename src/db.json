@@ -1,6 +1,7 @@
 {
     "games": [
       { 
+        "id": 0,
         "name": "Grand Theft Auto V",
         "price": "R$159,90",
         "image": "/assets/resources/images/GTA.png",
@@ -22,7 +23,7 @@
         ],
         "developer": "Rockstar North",
         "publisher": "Rockstar Games",
-        "aboutApp": [
+        "aboutApps": [
             "Quando um malandro de rua, um ladrão de bancos aposentado e um psicopata aterrorizante se envolvem com alguns dos criminosos mais assustadores e loucos do submundo, o governo dos EUA e a indústria do entretenimento, eles devem realizar golpes ousados para sobreviver nessa cidade implacável onde não podem confiar em ninguém, nem mesmo um no outro.",
             "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).",
             "O jogo oferece uma ampla seleção de opções de personalização específicas para o PC, com mais de 25 configurações separadas para qualidade de textura, sombreamentos, suavização de bordas e muito mais. Além disso, ele contém diversas opções de personalização dos controles de mouse e teclado. Entre as opções adicionais estão a densidade da população, o controle do tráfego de carros e pedestres, suporte para dois ou três monitores, compatibilidade com telas 3D e suporte para controle plug-and-play."
@@ -30,6 +31,7 @@
        },
 
        { 
+        "id": 1,
         "name": "Fallout 4",
         "price": "R$59,99",
         "image": "/assets/resources/images/Fallout4.png",
@@ -51,13 +53,14 @@
         ],
         "developer": "Bethesda Game Studios",
         "publisher": "Bethesda Softworks",
-        "aboutApp": [
+        "aboutApps": [
             "Bethesda Game Studios, os premiados criadores de Fallout 3 e The Elder Scrolls V: Skyrim, dão as boas-vindas ao mundo de Fallout 4 – o jogo mais ambicioso de todos os tempos e a próxima geração de jogos de mundo aberto.",
             "Como único sobrevivente do Vault 111, você entra em um mundo destruído pela guerra nuclear. Cada segundo é uma luta pela sobrevivência e cada escolha é sua. Só você pode reconstruir e determinar o destino de Wasteland. Bem-vindo a casa."
         ]
        },
 
        { 
+        "id": 2,
         "name": "The Witcher 3: Wild Hunt",
         "price": "R$129,99",
         "image": "/assets/resources/images/TheW3.png",
@@ -79,7 +82,7 @@
         ],
         "developer": "CD PROJEKT RED",
         "publisher": "CD PROJEKT RED",
-        "aboutApp": [
+        "aboutApps": [
             "Você é Geralt de Rívia, mercenário matador de monstros. O lugar é um continente devastado pela guerra e infestado de monstros que você pode explorar à vontade. Seu contrato atual? Encontrar Ciri, a Criança da Profecia — uma arma viva que pode alterar a forma do mundo.",
             "Atualizado para a versão mais recente, The Witcher 3: Wild Hunt vem com novos recursos e itens, incluindo o Modo Fotografia integrado, espadas, armaduras, aparências alternativas inspiradas na série The Witcher da Netflix e muito mais!",
             "Contemple o mundo sombrio de fantasia do Continente como nunca antes! Esta edição de The Witcher 3: Wild Hunt foi aprimorada com inúmeras melhorias visuais e técnicas, inclusive com nível de detalhes elaborado, uma variedade de modificações criadas e recém-desenvolvidas pela comunidade para o jogo, traçado de raios em tempo real e muito mais — especialmente para o desempenho dos PCs mais modernos."
@@ -87,6 +90,7 @@
        },
 
        { 
+        "id": 3,
         "name": "DEATH STRANDING",
         "price": "R$159,99",
         "image": "/assets/resources/images/DS.png",
@@ -108,13 +112,14 @@
         ],
         "developer": "KOJIMA PRODUCTIONS",
         "publisher": "505 Games",
-        "aboutApp": [
+        "aboutApps": [
             "Jogando como Sam Bridges, sua missão é entregar esperança à humanidade ao conectar os sobreviventes de uma América devastada. Você conseguirá reunir este mundo destruído, um passo de cada vez?",
             "DEATH STRANDING DIRECTOR’S CUT no PC inclui ALTA TAXA DE QUADROS, MODO FOTO e SUPORTE A MONITORES ULTRAWIDE. Também inclui conteúdo crossover da série HALF-LIFE, da Valve Corporation; e de Cyberpunk 2077, da CD Projekt Red. Esteja conectado a jogadores no mundo todo com o Social Strand System™.!"
         ]
        },
 
        { 
+        "id": 4,
         "name": "Red Dead Redemption 2",
         "price": "R$299,90",
         "image": "/assets/resources/images/RDR22.png",
@@ -136,7 +141,7 @@
         ],
         "developer": "Rockstar Games",
         "publisher": "Rockstar Games",
-        "aboutApp": [
+        "aboutApps": [
             "Estados Unidos, 1899.",
             "Arthur Morgan e a gangue Van der Linde são bandidos em fuga. Com agentes federais e os melhores caçadores de recompensas no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos. Conforme divisões internas profundas ameaçam despedaçar a gangue, Arthur deve fazer uma escolha entre os seus próprios ideais e a lealdade à gangue que o criou.",
             "Agora com conteúdo adicional no Modo História e um Modo Foto repleto de recursos, Red Dead Redemption 2 também inclui acesso gratuito ao mundo compartilhado de Red Dead Online. Nele, os jogadores assumem uma diversidade de ofícios para construir suas próprias trajetórias na fronteira, seja perseguindo criminosos procurados como Caçador de Recompensa, estabelecendo um negócio como Mercador, escavando tesouros exóticos como Colecionador ou operando uma destilaria subterrânea como Moonshiner, e muito mais.",
@@ -146,6 +151,7 @@
        },
 
        { 
+        "id": 5,
         "name": "Stardew Valley",
         "price": "R$24,99",
         "image": "/assets/resources/images/Stardew.png",
@@ -167,7 +173,7 @@
         ],
         "developer": "ConcernedApe",
         "publisher": "ConcernedApe",
-        "aboutApp": [
+        "aboutApps": [
             "Você está de mudança para o Vale...",
             "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?",
             "Crie a fazenda dos seus sonhos! Construa sua fazenda do zero em 1 de 5 mapas diferentes.",
@@ -176,6 +182,7 @@
         ]
        },
        { 
+        "id": 6,
         "name": "Lethal Company",
         "price": "R$32,99",
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1700231592",
@@ -197,13 +204,14 @@
         ],
         "developer": "Zeekerss",
         "publisher": "Zeekerss",
-        "aboutApp": [
+        "aboutApps": [
             "Você é um trabalhador contratado pela Empresa. Seu trabalho é coletar sucata de luas abandonadas e industrializadas para atingir a cota de lucro da Empresa. Você pode usar o dinheiro que ganha para viajar para luas novas com maiores riscos e recompensas – ou pode comprar ternos e decorações elegantes para seu navio. Experimente a natureza, examinando qualquer criatura que encontrar para adicioná-la ao seu bestiário. Explore o maravilhoso ar livre e vasculhe seus pontos fracos abandonados, de aço e concreto. Apenas nunca perca a cota.",
             "Esses perigos atacam os vulneráveis ​​e solitários, e a proteção da sua tripulação pode ser sua única esperança. Você pode guiar seus tripulantes de seu navio, usando o radar para chamar armadilhas e usando o terminal do navio para acessar portas trancadas remotamente – ou vocês podem entrar todos juntos. A loja da Companhia possui muitas ferramentas úteis para o trabalho, incluindo luzes, pás, walkie talkies, granadas de efeito moral ou caixas de som.",
             "As coisas ficam perigosas à noite. Comunique-se com seus tripulantes para levar todos os objetos de valor para o navio antes que as coisas fiquem muito perigosas e tente não deixar ninguém para trás."
         ]
        },
        { 
+        "id": 7,
         "name": "Among Us",
         "price": "R$14,99",
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1718741655",
@@ -225,7 +233,7 @@
         ],
         "developer": "Innersloth",
         "publisher": "Innersloth",
-        "aboutApp": [
+        "aboutApps": [
             "Boas-vindas, recrutas!",
             "Venham embarcar no novo mapa de Among Us: Airship! Trabalhem em equipe na nave para executar o maior dos planos... Se vai ser como Tripulante ou Impostor já são outros quinhentos.",
             "Jogue com 4 a 15 jogadores online ou na sua rede Wi-Fi enquanto prepara sua nave para decolar, mas cuidado! Um ou mais jogadores aleatórios da Tripulação são Impostores e estão doidos pra matar geral!",
@@ -233,6 +241,7 @@
         ]
        },
        { 
+        "id": 8,
         "name": "Tom Clancy's Rainbow Six® Siege",
         "price": "R$84,99",
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg?t=1716985808",
@@ -254,7 +263,7 @@
         ],
         "developer": "Ubisoft Montreal",
         "publisher": "Ubisoft",
-        "aboutApp": [
+        "aboutApps": [
             "Tom Clancy's Rainbow Six® Siege é um jogo de tiro tático em equipes, realista e de elite, no qual planejamento e execução superiores triunfam. Possui jogabilidade de 5v5, ataque vs. defesa e combates intensos de curta distância em ambientes destrutíveis.",
             "Na defesa, coordene com sua equipe para transformar seu ambiente em fortalezas. Crie armadilhas, fortificações e sistemas defensivos para prevenir invasões do inimigo. No ataque, lidere sua equipe por corredores apertados, portas com barricadas e paredes reforçadas. Combine mapas táticos, drones de observação, rapel e mais, a fim de planejar, atacar e dispersar qualquer situação.",
             "Escolha entre dezenas de agentes de forças especiais, altamente treinados, de todo o mundo. Use as mais novas tecnologias para rastrear o movimento inimigo. Destrua paredes para abrir novas linhas de fogo. Invada pelo teto ou pelo chão para criar novos pontos de acesso. Use todas as armas e gadgets do seu arsenal mortal para encontrar, manipular e destruir seus inimigos e o ambiente ao redor deles.",
@@ -262,6 +271,7 @@
         ]
        },
        { 
+        "id": 9,
         "name": "The Last of Us™ Part I",
         "price": "R$249,90",
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1717621627",
@@ -283,12 +293,13 @@
         ],
         "developer": "Naughty Dog LLC",
         "publisher": "PlayStation Publishing LLC",
-        "aboutApp": [
+        "aboutApps": [
             "Em uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta, Joel, um protagonista abatido, é contratado para tirar uma garota de 14 anos, Ellie, de uma zona de quarentena militar. No entanto, o que começa como um pequeno serviço se transforma em uma jornada brutal através do país.",
             "Inclui a campanha de The Last of Us e o aclamado capítulo anterior à trama, Left Behind, que explora os eventos que mudaram para sempre as vidas de Ellie e sua melhor amiga, Riley."
         ]
        },
        { 
+        "id": 10,
         "name": "EA SPORTS FC™ 24",
         "price": "R$359,00",
         "image": "/assets/resources/images/EAFC.png",
@@ -310,7 +321,7 @@
         ],
         "developer": "EA Canada & Ea Romania",
         "publisher": "Electronic Arts",
-        "aboutApp": [
+        "aboutApps": [
             "O EA SPORTS FC™ 24 é a experiência de futebol mais autêntica de todos os tempos, com mais de 19.000 atletas com licença, 700 times, 30 ligas e mais de 300 parceiros globais no Jogo de Todo Mundo.",
             "A tecnologia HyperMotionV captura o jogo como ele é realmente, usando dados volumétricos de mais de 180 partidas de futebol profissional masculino e feminino para garantir uma movimentação autêntica.",
             "Dê boas-vindas ao futebol feminino no Ultimate Team™ e monte seu time dos sonhos com ligas e competições femininas, incluindo WSL, NWSL, DIF, UWCL, Frauen Bundesliga e Liga F.",
