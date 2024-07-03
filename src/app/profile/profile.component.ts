@@ -26,6 +26,7 @@ export class ProfileComponent {
   newUsername: string | null = null; // Novo nome de usuário visual
   showModal = false;
   totalGames: number = 0;
+  sortedGames: any[] = [];
 
   constructor(private apiService: ApiService, private purchaseService: PurchaseService) {}
 
@@ -49,6 +50,8 @@ export class ProfileComponent {
 
     this.apiService.getGames().subscribe(data => {
       this.games = data;
+
+      this.sortedGames = this.games.slice().sort((a, b) => a.name.localeCompare(b.name));
 
       const userData = JSON.parse(localStorage.getItem('userData') || '{}');
       const purchasedGameIds = userData.purchasedGames || [];

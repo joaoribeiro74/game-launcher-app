@@ -1,0 +1,75 @@
+<div class="mt-[20px]">
+    <h1 class="flex justify-start lg:w-1/2 md:w-4/5 md:mx-auto mx-2 text-gray-300 text-md font-medium mb-[10px] tracking-wide uppercase mt-10">
+      DESTAQUE EM {{ category }}
+    </h1>
+</div>
+  <div class="relative w-1/2 mx-auto hidden lg:block">
+    <div *ngIf="game" class="relative h-[353px] overflow-hidden shadow-custom">
+      <a [routerLink]="['/game', game.name]" class="flex duration-700 ease-in-out cursor-pointer">
+        <div class="relative shrink-0 z-10 mr-[10px] w-[616px] h-[353px] shadow-[0_0_10px_5px_#000]">
+          <!-- Imagem principal -->
+          <img class="h-full" [src]="game.tempImage || game.image">
+        </div>
+        <div class="info shrink">
+          <div class="nome_jogo flex items-center pt-0 pl-1.5 pr-1.5 h-16">
+            <div class="text-[20px] text-white font-semibold pt-1 pb-1">{{ game.name }}</div>
+          </div>
+          <div class="screenshots relative inline-block -ml-[30px] max-h-[176px] w-[344px]">
+            <!-- Screenshots -->
+            <div *ngFor="let screenshot of game.screenshots; let i = index" class="inline-block mt-2 mr-2.5 ml-0 mb-0 w-[162px] h-[69px]">
+              <div class="inline-block w-[162px] h-[69px] opacity-70 bg-cover bg-center"
+                [style.background-image]="'url(' + screenshot + ')'"
+                [style.opacity]="currentScreenshotIndex === i ? '1' : '0.7'"
+                (mouseover)="onMouseOver(i, game)"
+                (mouseout)="onMouseOut(game)">
+              </div>
+            </div>
+          </div>
+          <div class="reason mt-2 pl-1.5 inline-block w-[300px]">
+            <div class="text-[20px] text-gray-300 font-normal min-w-auto pt-1">Já disponível</div>
+          </div>
+          <div class="price absolute bottom-[10px] left-[632px]">
+            <div class="original-price flex items-center flex-row shrink px-[5px] justify-end">
+              <div class="relative w-fit font-bold text-white text-[12px]">{{ game.price }}</div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="relative w-full overflow-hidden">
+    <div class="flex lg:hidden md:w-4/5 md:mx-auto mx-2">
+        <div *ngIf="game" class="snap-center flex-shrink-0 w-full sm:h-72 h-48 md:my-1.5 md:mr-3 mr-3 bg-[#1C6C92] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow">
+            <a class="block w-full sm:h-72 h-48">
+                <div>
+                    <img class="sm:h-60 h-36 w-full" [src]="game.image" alt="Imagem do jogo">
+                </div>
+                <div class="flex items-center cursor-pointer text-white font-bold">
+                    <span class="flex flex-row px-2 py-3 truncate md:text-sm text-[14px]">{{ game.name }}</span>
+                    <div class="flex ml-auto px-2 md:py-0 py-1.5 font-semibold">
+                    <span class="flex">
+                        <div class="flex px-2 py-0.5 bg-[#1C2C3C] md:text-sm text-[14px]">
+                            <div>{{ game.price }}</div>
+                        </div>
+                    </span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="md:mt-16 mt-8">
+    <h1 class="flex justify-start lg:w-1/2 md:w-4/5 md:mx-auto mx-2 text-gray-300 text-md font-medium mb-[10px] tracking-wide uppercase mt-10">
+      RECOMENDADOS EM {{ category }}
+    </h1>
+</div>
+  
+<ng-container *ngIf="games.length > 0">
+    <div class="flex flex-row lg:w-1/2 md:w-4/5 grid grid-cols-2 gap-3 pb-2.5 md:mx-auto mx-2 justify-center mb-10">
+      <div *ngFor="let game of games.slice(1)" class="flex">
+        <app-card [name]="game.name" [price]="game.price" [image]="game.image" [video]="game.video" [releaseDate]="game.releaseDate"></app-card>
+      </div>
+    </div>
+  </ng-container>

@@ -26,6 +26,13 @@ export class ProfileEditModalComponent {
 
   @ViewChild('profileForm') profileForm!: NgForm;
 
+  sortedGames: any[] = [];
+
+  ngOnInit(): void {
+    // Ordenar os jogos em ordem alfabética
+    this.sortedGames = this.games.slice().sort((a, b) => a.name.localeCompare(b.name));
+  }
+
   close() {
     this.closeModal.emit();
   }

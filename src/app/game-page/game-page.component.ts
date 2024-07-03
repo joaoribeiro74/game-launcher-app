@@ -12,7 +12,7 @@ import { PurchaseService } from '../services/purchase.service';
 @Component({
   selector: 'app-game-page',
   standalone: true,
-  imports: [CommonModule, CardComponent, RouterModule, CardMainComponent],
+  imports: [CommonModule, CardComponent, RouterModule, CardMainComponent, RouterModule],
   templateUrl: './game-page.component.html',
   styleUrl: './game-page.component.css',
   providers: [ApiService]
@@ -67,6 +67,13 @@ export class GamePageComponent implements OnInit, AfterViewInit {
     this.currentDisplay = 'screenshot';
     this.selectedScreenshot = screenshot;
     this.hasClickedScreenshot = true; // Set screenshot click state to true
+  }
+
+  goToGamePage(name: string): void {
+    this.router.navigate(['/game', name]).then(() => {
+      // Atualiza a página após a navegação para garantir que o vídeo não persista
+      window.location.reload();
+    });
   }
 
   ngAfterViewInit(): void {

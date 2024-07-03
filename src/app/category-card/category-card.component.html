@@ -1,6 +1,6 @@
 <div class="relative hidden lg:block">
     <div class="shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow transition-transform transition-shadow duration-300 ease-in-out hover:scale-[104%] hover:shadow-[0_0_15px_rgba(0,0,0,0.8)]">
-      <a href="#" class="block cursor-pointer">
+      <a [routerLink]="['/category', name]" class="block cursor-pointer">
         <div>
           <img class="" src="{{ image }}" alt="" />
           <div class="absolute top-0 h-full w-full" style="background: linear-gradient(rgba(0,0,0,0), rgb(28,108,146) 100%)"></div>
@@ -16,7 +16,7 @@
   <div #carousel class="flex overflow-x-auto snap-x snap-mandatory">
     <!-- Aqui você vai iterar sobre os itens do slider -->
     <div *ngFor="let category of categories" class="snap-center flex-shrink-0 w-48 h-44 md:my-1.5 md:mr-3 mr-3 bg-gray-300 shadow-[0_0_10px_rgba(0,0,0,0.7)]">
-      <a href="#" class="block w-48 h-44">
+      <a [routerLink]="['/category', category.name]" class="block w-48 h-44">
         <div class="relative">
           <img [src]="category.image" alt="" class="w-full h-full object-cover">
           <div class="absolute top-0 h-full w-full" style="background: linear-gradient(rgba(0,0,0,0), rgb(28,108,146) 100%)"></div>

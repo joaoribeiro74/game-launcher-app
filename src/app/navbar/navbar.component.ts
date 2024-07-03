@@ -1,5 +1,6 @@
+import { ApiService } from './../services/api.service';
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, ViewChild, HostListener } from '@angular/core';
+import { Component, ElementRef, ViewChild, HostListener, OnInit } from '@angular/core';
 import { Router, RouterLink, RouterModule, NavigationEnd } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 
@@ -8,15 +9,17 @@ import { AuthService } from '../services/auth.service';
   standalone: true,
   imports: [RouterLink, RouterModule, CommonModule],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.css'
+  styleUrl: './navbar.component.css',
+  providers: [ApiService]
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit {
   isLoginPage: boolean = false;
   isRegisterPage: boolean = false;
+  categories: any[] = [];
 
   @ViewChild('mobileMenu') mobileMenu: ElementRef | undefined;
 
-  constructor(private router: Router, public authService: AuthService) {
+  constructor(private router: Router, public authService: AuthService, private apiService: ApiService) {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
         this.isLoginPage = event.url === '/login';
@@ -35,6 +38,10 @@ export class NavbarComponent {
       if (event instanceof NavigationEnd) {
         this.isMobileMenuOpen = false; // Fecha o menu ao navegar para outra página
       }
+    });
+
+    this.apiService.getCategories().subscribe(data => {
+      this.categories = data;
     });
   }
 

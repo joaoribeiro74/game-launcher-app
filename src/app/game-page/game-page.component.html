@@ -1,9 +1,9 @@
-<div class="w-1/2 mx-auto mb-10" *ngIf="game">
+<div class="lg:w-1/2 md:w-4/5 md:mx-auto mx-2 mb-10 lg:min-w-[740px]" *ngIf="game">
     <div class="text-white font-bold mt-10 text-xl">
         {{ game.name }}
     </div>
-    <div class="bg-[#171D25] flex flex-row text-white mt-5 w-full shadow-[0_0_10px_rgba(0,0,0,0.7)]">
-        <div class="flex items-start w-[616px]">
+    <div class="bg-[#171D25] flex md:flex-row flex-col text-white mt-5 w-full shadow-[0_0_10px_rgba(0,0,0,0.7)]">
+        <div class="flex items-start sm:flex-row w-full md:w-[616px] order-2 md:order-1">
             <div class="justify-center flex flex-col w-full w-[600px]">
                 <div class="mb-2">
                     <video #videoPlayer *ngIf="currentDisplay === 'video'" class="w-full h-full object-cover" autoplay controls>
@@ -49,46 +49,46 @@
                   </div>
             </div>
         </div>
-        <div class="flex flex-col items-start w-[324px] ml-auto">
+        <div class="flex flex-col items-start w-full md:w-[324px] lg:ml-auto md:pl-2 order-1 md:order-2">
             <div class="w-full flex items-center mb-2">
                 <img [src]="game.image" [alt]="game.name">
             </div>
-            <div class="text-[12px] text-[#BABABA] pr-[16px] mb-8">
+            <div class="lg:text-[12px] text-[10px] text-[#BABABA] pr-[16px] lg:mb-8 mb-4 sm:ml-0 ml-2">
                 {{ game.shortDescription }}
             </div>
-            <div class="text-[12px] text-[#BABABA] flex flex-row mb-8">
+            <div class="lg:text-[12px] text-[10px] text-[#BABABA] flex flex-row lg:mb-8 mb-4 sm:ml-0 ml-2">
                 DATA DE LANÇAMENTO: 
                 <div class="text-white ml-2">
                     <strong>{{ game.releaseDate }}</strong>
                 </div>
             </div>
-            <div class="text-[12px] text-[#BABABA] flex flex-row">
+            <div class="lg:text-[12px] text-[10px] text-[#BABABA] flex flex-row sm:ml-0 ml-2">
                 DESENVOLVEDOR:
                 <div class="text-[#04BCFC] ml-2">
                     <strong>{{ game.developer }}</strong>
                 </div>
             </div>
-            <div class="text-[12px] text-[#BABABA] flex flex-row mb-8">
+            <div class="lg:text-[12px] text-[10px] text-[#BABABA] flex flex-row lg:mb-8 sm:ml-0 ml-2">
                 DISTRIBUIDORA:
                 <div class="text-[#04BCFC] ml-2">
                     <strong>{{ game.publisher }}</strong>
                 </div>
             </div>
             <div class="flex-grow"></div>
-            <div class="text-[10px] font-bold text-[#BABABA] opacity-20 flex flex-row mb-2 mt-2">
+            <div class="lg:text-[12px] text-[10px] font-bold text-[#BABABA] opacity-20 flex flex-row mb-2 mt-2 sm:ml-0 ml-2">
                 {{ game.gameCategories.join(", ") }}
             </div>       
         </div>
     </div>
 </div>
 
-<div class="w-1/2 mx-auto mb-10" *ngIf="game">
+<div class="lg:w-1/2 md:w-4/5 md:mx-auto mx-2 mb-10" *ngIf="game">
     <div class="relative bg-gradient-to-r from-[#2C7CFC] p-8 to-[#04BCFC] rounded shadow-[0_0_10px_rgba(0,0,0,0.7)]">
-      <h1 class="text-white font-bold text-2xl">{{ game.name }}</h1>
+      <h1 class="text-white font-bold text-lg md:text-2xl">{{ game.name }}</h1>
       <div class="absolute right-8 translate-y-[15%] flex">
-        <div class="flex items-center inline-block bg-[#171D25] rounded-lg text-white font-bold py-2 pl-4 pr-2">
+        <div class="flex items-center inline-block bg-[#171D25] rounded-lg text-white text-[12px] md:text-[15px] font-bold py-2 pl-4 pr-2">
           {{ game.price }}
-          <button (click)="handlePurchase()" class="shadow bg-gradient-to-r from-[#00B203] to-[#6EE163] px-4 text-sm py-1.5 rounded ml-4">
+          <button (click)="handlePurchase()" class="shadow bg-gradient-to-r from-[#00B203] to-[#6EE163] px-3 md:px-4 text-[10px] md:text-sm py-1 md:py-1.5 rounded ml-4">
             Comprar
           </button>
         </div>
@@ -96,12 +96,12 @@
     </div>
   </div>
 
-  <div class="w-1/2 mx-auto mt-20" *ngIf="game">
+  <div class="lg:w-1/2 md:w-4/5 md:mx-auto mx-2 mt-20" *ngIf="game">
     <h2 class="text-xl text-white font-bold p-1 uppercase">Sobre este jogo</h2>
     <div class="p-[0.5px] bg-gradient-to-r from-[#2C7CFC] to-transparent bg-no-repeat bg-left-bottom"></div>
-    <div class="flex flex-col space-y-4 pt-5">
+    <div class="flex flex-col space-y-4 pt-2 md:pt-5">
       <ng-container *ngFor="let aboutApp of game.aboutApps">
-        <div class="text-white font-thin text-lg pt-3">{{ aboutApp }}</div>
+        <div class="text-white font-thin text-md md:text-lg pt-3">{{ aboutApp }}</div>
       </ng-container>
     </div>
   </div>
@@ -112,14 +112,14 @@
     </h1>
     <div class="flex flex-row lg:w-1/2 md:w-4/5 md:mx-auto mx-2 grid gap-3 lg:grid-cols-4 grid-cols-2 pb-2.5 justify-center text-[10px]">
         <div class="flex" *ngFor="let game of games.slice(0, 4)">
-            <div class="group relative">
+            <div class="group relative overflow-hidden">
                 <div class="bg-[#1C6C92] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow transition-transform transition-shadow duration-300 ease-in-out hover:scale-[104%] hover:shadow-[0_0_15px_rgba(0,0,0,0.8)]">
-                  <a href="#" class="block cursor-pointer">
+                  <a (click)="goToGamePage(game.name)" class="block cursor-pointer">
                     <div>
                       <img class="" src="{{ game.image }}" alt="" />
                     </div>
                     <div class="flex items-center cursor-pointer text-white font-bold">
-                      <span class="flex flex-row px-2 py-3 hidden md:block">{{ game.name }}</span>
+                      <span class="px-2 py-3 hidden md:block truncate">{{ game.name }}</span>
                       <div class="flex ml-auto pr-2 md:py-0 py-1.5 font-semibold">
                         <span class="flex">
                           <div class="flex px-2 py-0.5 bg-[#1C2C3C]">

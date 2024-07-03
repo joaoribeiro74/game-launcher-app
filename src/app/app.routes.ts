@@ -8,6 +8,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { authGuard } from './guards/auth.guard';
 import { ProfileComponent } from './profile/profile.component';
 import { GamePageComponent } from './game-page/game-page.component';
+import { CategoryPageComponent } from './category-page/category-page.component';
 
 
 
@@ -18,5 +19,6 @@ export const routes: Routes = [
     { path: 'register', component: RegisterComponent},
     { path: 'perfil', component: ProfileComponent, canActivate: [authGuard]},
     { path: 'game/:name', component: GamePageComponent },
+    { path: 'category/:name', component: CategoryPageComponent }
 ];
 
