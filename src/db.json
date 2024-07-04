@@ -985,19 +985,19 @@
     "categories": [
         {
             "name": "Mundo Aberto",
-            "image": "/assets/resources/images/Mundo.png"
+            "image": "/game-launcher-app/assets/resources/images/Mundo.png"
         },
         {
             "name": "Corrida",
-            "image": "/assets/resources/images/Corrida.png"
+            "image": "/game-launcher-app/assets/resources/images/Corrida.png"
         },
         {
             "name": "Esportes",
-            "image": "/assets/resources/images/Esporte.png"
+            "image": "/game-launcher-app/assets/resources/images/Esporte.png"
         },
         {
             "name": "Aventura",
-            "image": "/assets/resources/images/Aventura.png"
+            "image": "/game-launcher-app/assets/resources/images/Aventura.png"
         },
         {
             "name": "RPG",

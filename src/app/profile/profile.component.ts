@@ -49,16 +49,14 @@ export class ProfileComponent {
     });
 
     this.apiService.getGames().subscribe(data => {
-      this.games = data;
+        this.games = data;
 
-      this.sortedGames = this.games.slice().sort((a, b) => a.name.localeCompare(b.name));
+        const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+        const purchasedGameIds = userData.purchasedGames || [];
+        this.games = this.games.filter(game => purchasedGameIds.includes(game.id));
 
-      const userData = JSON.parse(localStorage.getItem('userData') || '{}');
-      const purchasedGameIds = userData.purchasedGames || [];
-      this.games = this.games.filter(game => purchasedGameIds.includes(game.id));
-
-      this.totalGames = purchasedGameIds.length;
-    });  // Atualiza a quantidade total de jogos comprados
+        this.totalGames = purchasedGameIds.length;
+      });
   }
 
   toggleModal() {

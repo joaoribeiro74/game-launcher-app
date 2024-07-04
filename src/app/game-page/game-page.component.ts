@@ -34,7 +34,6 @@ export class GamePageComponent implements OnInit, AfterViewInit {
     this.route.params.subscribe(params => {
       // Decode the gameName to handle '%20' in the URL
       this.gameName = decodeURIComponent(params['name']);
-      console.log('Decoded gameName:', this.gameName);
       this.loadGames();
     });
   }
@@ -49,7 +48,6 @@ export class GamePageComponent implements OnInit, AfterViewInit {
   loadGame(): void {
     if (this.gameName && this.games.length > 0) {
       this.game = this.games.find(g => g.name === this.gameName);
-      console.log('Loaded game:', this.game);
       if (this.game) {
         this.selectedScreenshot = this.game.screenshots[0]; // Set default screenshot
         this.currentDisplay = this.game.image ? 'video' : 'screenshot'; // Set display mode based on the existence of a video

@@ -41,7 +41,7 @@
   <div class="relative w-full overflow-hidden">
     <div class="flex lg:hidden md:w-4/5 md:mx-auto mx-2">
         <div *ngIf="game" class="snap-center flex-shrink-0 w-full sm:h-72 h-48 md:my-1.5 md:mr-3 mr-3 bg-[#1C6C92] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow">
-            <a class="block w-full sm:h-72 h-48">
+            <a [routerLink]="['/game', game.name]" class="block w-full sm:h-72 h-48">
                 <div>
                     <img class="sm:h-60 h-36 w-full" [src]="game.image">
                 </div>
