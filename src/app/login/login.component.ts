@@ -25,7 +25,7 @@ export class LoginComponent {
     this.passwordInvalid = false;
 
     if (this.authService.login(this.username, this.password)) {
-      this.router.navigate(['']); // Redireciona para o perfil se o login for bem-sucedido
+      this.router.navigate(['']);
     } else {
       const userData = JSON.parse(localStorage.getItem('userData') || '{}');
       if (userData.username !== this.username) {
@@ -42,7 +42,6 @@ export class LoginComponent {
     return this.authService.isLoggedIn() || (userData.username === this.username);
   }
 
-  // Verifica se a senha está correta para remover o erro e a borda vermelha
   isPasswordValid(): boolean {
     const userData = JSON.parse(localStorage.getItem('userData') || '{}');
     return this.authService.isLoggedIn() || (userData.password === this.password);

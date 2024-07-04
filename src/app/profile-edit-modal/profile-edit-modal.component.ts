@@ -29,7 +29,6 @@ export class ProfileEditModalComponent {
   sortedGames: any[] = [];
 
   ngOnInit(): void {
-    // Ordenar os jogos em ordem alfabética
     this.sortedGames = this.games.slice().sort((a, b) => a.name.localeCompare(b.name));
   }
 
@@ -46,14 +45,14 @@ export class ProfileEditModalComponent {
       reader.onload = () => {
         const result = reader.result as string;
         this.profileImage = result;
-        this.profileImageChange.emit(this.profileImage); // Emitindo o evento de mudança de imagem
+        this.profileImageChange.emit(this.profileImage);
       };
       reader.readAsDataURL(file);
     }
   }
 
   saveChanges() {
-    if (this.profileForm.valid) { // Verifica se o formulário é válido
+    if (this.profileForm.valid) {
       const updatedProfile = {
         displayName: this.displayName,
         profileImage: this.profileImage,

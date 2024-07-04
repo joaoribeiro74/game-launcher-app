@@ -23,8 +23,8 @@ export class GamePageComponent implements OnInit, AfterViewInit {
   categories: any[] = [];
   gameName: string | undefined;
   selectedScreenshot: string | undefined;
-  currentDisplay: 'video' | 'screenshot' = 'video'; // Default to 'video'
-  hasClickedScreenshot = false; // New variable to track if a screenshot has been clicked
+  currentDisplay: 'video' | 'screenshot' = 'video'; 
+  hasClickedScreenshot = false; 
 
   @ViewChild('videoPlayer') videoPlayer?: ElementRef;
 
@@ -32,7 +32,6 @@ export class GamePageComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.route.params.subscribe(params => {
-      // Decode the gameName to handle '%20' in the URL
       this.gameName = decodeURIComponent(params['name']);
       this.loadGames();
     });
@@ -49,27 +48,26 @@ export class GamePageComponent implements OnInit, AfterViewInit {
     if (this.gameName && this.games.length > 0) {
       this.game = this.games.find(g => g.name === this.gameName);
       if (this.game) {
-        this.selectedScreenshot = this.game.screenshots[0]; // Set default screenshot
-        this.currentDisplay = this.game.image ? 'video' : 'screenshot'; // Set display mode based on the existence of a video
+        this.selectedScreenshot = this.game.screenshots[0]; 
+        this.currentDisplay = this.game.image ? 'video' : 'screenshot'; 
       }
     }
   }
 
   displayVideo(): void {
     this.currentDisplay = 'video';
-    this.selectedScreenshot = ''; // Clear the selected screenshot
-    this.hasClickedScreenshot = false; // Reset screenshot click state
+    this.selectedScreenshot = ''; 
+    this.hasClickedScreenshot = false;
   }
 
   displayScreenshot(screenshot: string): void {
     this.currentDisplay = 'screenshot';
     this.selectedScreenshot = screenshot;
-    this.hasClickedScreenshot = true; // Set screenshot click state to true
+    this.hasClickedScreenshot = true; 
   }
 
   goToGamePage(name: string): void {
     this.router.navigate(['/game', name]).then(() => {
-      // Atualiza a página após a navegação para garantir que o vídeo não persista
       window.location.reload();
     });
   }
@@ -85,13 +83,11 @@ export class GamePageComponent implements OnInit, AfterViewInit {
     if (this.authService.isLoggedIn()) {
       this.purchaseService.purchaseGame(this.game.id).subscribe(response => {
         if (response.success) {
-          // Redireciona para a página de perfil após a compra
           this.router.navigate(['/perfil'], { queryParams: { purchasedGame: this.game.id } });
         } else {
         }
       });
     } else {
-      // Redireciona para a página de login caso o usuário não esteja logado
       this.router.navigate(['/login']);
     }
   }

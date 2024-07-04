@@ -36,7 +36,7 @@ export class CategoryPageComponent implements OnInit {
     this.apiService.getGames().subscribe(data => {
       this.games = data.filter(game => game.gameCategories.includes(this.category || ''));
       if (this.games.length > 0) {
-        this.game = this.games[0]; // Exibe o primeiro jogo da categoria
+        this.game = this.games[0];
       }
     });
   }

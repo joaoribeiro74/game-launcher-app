@@ -84,25 +84,25 @@ export class MainPageComponent implements OnInit {
   }
 
   loadRandomGames(): void {
-    const gamesCopy = [...this.games]; // Cria uma cópia dos jogos
-    const shuffledGames = this.shuffleArray(gamesCopy); // Embaralha a cópia dos jogos
-    this.filteredGames = shuffledGames.slice(0, 8); // Seleciona os primeiros 8 jogos para o carrossel
-    this.sliderGames = shuffledGames.slice(0, 8); // Seleciona os mesmos 8 jogos para o slider
+    const gamesCopy = [...this.games]; 
+    const shuffledGames = this.shuffleArray(gamesCopy); 
+    this.filteredGames = shuffledGames.slice(0, 8); 
+    this.sliderGames = shuffledGames.slice(0, 8); 
     if (this.filteredGames.length > 0) {
-      this.currentGameIndex = 0; // Reinicia o índice
+      this.currentGameIndex = 0; 
     }
   }
 
   shuffleArray(array: any[]): any[] {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]]; // Troca os elementos
+      [array[i], array[j]] = [array[j], array[i]]; 
     }
     return array;
   }
 
   getSportsGames(): any[] {
-    return this.games.slice(10, 14); // Jogos para a seção 'ESPORTES'
+    return this.games.slice(10, 14);
   }
 
   initializeTabs(): void {
@@ -112,21 +112,19 @@ export class MainPageComponent implements OnInit {
       tab.addEventListener('click', () => {
         tabs.forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
-        this.clearActiveCard(); // Limpa o card ativo ao clicar em uma aba
+        this.clearActiveCard(); 
       });
     });
   }
 
   setActiveCard(card: any | null): void {
     this.activeCard = card;
-    this.isHovered = true; // Mostra a home-right ao definir um card ati  
+    this.isHovered = true;  
   }
 
-  // Limpa o card ativo e oculta a home-right
   clearActiveCard(): void {
   }
 
-  // Verifica se um card está ativo
   isCardActive(card: any): boolean {
     return this.activeCard === card && this.isHovered;
   }

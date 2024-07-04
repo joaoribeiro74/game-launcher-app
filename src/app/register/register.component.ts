@@ -22,13 +22,12 @@ export class RegisterComponent {
   constructor(private authService: AuthService, private router: Router) {}
 
   onSubmit(): void {
-    // Armazenar dados no localStorage
     localStorage.setItem('userData', JSON.stringify(this.user));
 
     const registered = this.authService.register(this.user);
     if (registered) {
       alert('Usuário registrado com sucesso');
-      this.router.navigate(['']); // Redireciona para a página main-page após o cadastro
+      this.router.navigate(['']);
     } else {
     }
   }

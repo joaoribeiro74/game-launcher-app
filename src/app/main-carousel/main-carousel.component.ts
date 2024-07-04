@@ -47,12 +47,10 @@ export class MainCarouselComponent implements OnInit {
 
     this.indicators = Array.from(document.querySelectorAll('#default-carousel [data-carousel-slide-to]'));
 
-    // Inicializa os indicadores corretamente
     this.indicators.forEach((indicator, index) => {
       indicator.setAttribute('aria-current', index === 0 ? 'true' : 'false');
     });
 
-    // Inicializa os listeners dos botões de navegação
     const prevButton = document.querySelector('[data-carousel-prev]') as HTMLButtonElement;
     const nextButton = document.querySelector('[data-carousel-next]') as HTMLButtonElement;
 
@@ -62,14 +60,13 @@ export class MainCarouselComponent implements OnInit {
   }
 
   ngOnDestroy(): void {
-    // Limpa o intervalo quando o componente for destruído para evitar vazamentos de memória
     this.clearInterval();
   }
 
   startInterval(): void {
     this.intervalId = setInterval(() => {
       this.next.emit();
-    }, 10000); // Intervalo de 3 segundos (ajuste conforme necessário)
+    }, 10000); 
   }
 
   clearInterval(): void {
@@ -78,13 +75,13 @@ export class MainCarouselComponent implements OnInit {
 
   onNextClick() {
     this.clearInterval();
-    this.next.emit(); // Emitir o evento next
+    this.next.emit(); 
     this.startInterval();
   }
 
   onPrevClick() {
     this.clearInterval();
-    this.prev.emit(); // Emitir o evento prev
+    this.prev.emit(); 
     this.startInterval();
   }
 

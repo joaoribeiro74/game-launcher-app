@@ -22,8 +22,8 @@ export class ProfileComponent {
   profileImage: string | null = null;
   profileSummary: string | null = null;
   favoriteGame: string | null = null;
-  displayName: string | null = null; // Nome de exibição
-  newUsername: string | null = null; // Novo nome de usuário visual
+  displayName: string | null = null; 
+  newUsername: string | null = null; 
   showModal = false;
   totalGames: number = 0;
   sortedGames: any[] = [];
@@ -39,9 +39,8 @@ export class ProfileComponent {
       this.profileSummary = user.profileSummary;
       this.favoriteGame = user.favoriteGame;
 
-      // Carregar displayName do localStorage se existir
       this.displayName = localStorage.getItem('displayName') || this.userName;
-      this.newUsername = user.newUsername || this.displayName; // Inicializa o newUsername com o valor do userData ou displayName
+      this.newUsername = user.newUsername || this.displayName;
     }
 
     this.apiService.getCategories().subscribe(data => {
@@ -65,7 +64,6 @@ export class ProfileComponent {
 
   updateProfile(updatedProfile: any) {
     if (updatedProfile.displayName !== this.displayName) {
-      // Se o displayName foi alterado, armazenar tanto o username original quanto o novo displayName
       localStorage.setItem('displayName', updatedProfile.displayName);
       localStorage.setItem('userData', JSON.stringify({
         ...JSON.parse(localStorage.getItem('userData')!),
@@ -73,7 +71,6 @@ export class ProfileComponent {
       }));
     }
 
-    // Atualizar o newUsername no localStorage ou no backend, conforme necessário
     if (updatedProfile.newUsername !== this.newUsername) {
       localStorage.setItem('userData', JSON.stringify({
         ...JSON.parse(localStorage.getItem('userData')!),
@@ -81,7 +78,6 @@ export class ProfileComponent {
       }));
     }
 
-    // Atualizar o perfil com os demais dados
     this.profileImage = updatedProfile.profileImage;
     this.profileSummary = updatedProfile.profileSummary;
     this.favoriteGame = updatedProfile.favoriteGame;
@@ -93,8 +89,8 @@ export class ProfileComponent {
       favoriteGame: this.favoriteGame
     }));
 
-    this.displayName = updatedProfile.displayName; // Atualizar o displayName exibido
-    this.newUsername = updatedProfile.newUsername; // Atualizar o newUsername exibido
+    this.displayName = updatedProfile.displayName; 
+    this.newUsername = updatedProfile.newUsername; 
   }
 
   getFavoriteGameImage(): string {

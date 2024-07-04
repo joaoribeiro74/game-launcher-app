@@ -36,7 +36,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-        this.isMobileMenuOpen = false; // Fecha o menu ao navegar para outra página
+        this.isMobileMenuOpen = false; 
       }
     });
 
@@ -55,7 +55,6 @@ export class NavbarComponent implements OnInit {
   @HostListener('document:click', ['$event'])
   clickOutside(event: MouseEvent): void {
     if (this.isMobileMenuOpen && this.mobileMenu && !this.mobileMenu.nativeElement.contains(event.target)) {
-      // Verifica se o clique foi fora do menu e se foi na área que representa o 1/3 restante
       const screenWidth = window.innerWidth;
       const menuWidth = this.mobileMenu.nativeElement.offsetWidth;
       const remainingWidth = screenWidth - menuWidth;
