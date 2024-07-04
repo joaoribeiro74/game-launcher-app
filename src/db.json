@@ -4,7 +4,7 @@
         "id": 0,
         "name": "Grand Theft Auto V",
         "price": "R$159,90",
-        "image": "/assets/resources/images/GTA.png",
+        "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_1487c2c7ddd9a1ae6b55f7e50d5d63ada6915921.1920x1080.jpg?t=1716224849",
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_e929649b2b98ad76795d92d8489470bc5dbffddb.1920x1080.jpg?t=1716224849",
@@ -29,12 +29,11 @@
             "O jogo oferece uma ampla seleção de opções de personalização específicas para o PC, com mais de 25 configurações separadas para qualidade de textura, sombreamentos, suavização de bordas e muito mais. Além disso, ele contém diversas opções de personalização dos controles de mouse e teclado. Entre as opções adicionais estão a densidade da população, o controle do tráfego de carros e pedestres, suporte para dois ou três monitores, compatibilidade com telas 3D e suporte para controle plug-and-play."
         ]
        },
-
        { 
         "id": 1,
         "name": "Fallout 4",
         "price": "R$59,99",
-        "image": "/assets/resources/images/Fallout4.png",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1717972401",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_f7861bd71e6c0c218d8ff69fb1c626aec0d187cf.1920x1080.jpg?t=1717972401",
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_910437ac708aed7c028f6e43a6224c633d086b0a.1920x1080.jpg?t=1717972401",
@@ -63,7 +62,7 @@
         "id": 2,
         "name": "The Witcher 3: Wild Hunt",
         "price": "R$129,99",
-        "image": "/assets/resources/images/TheW3.png",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg?t=1716793585",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg?t=1716793585",
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg?t=1716793585",
@@ -93,7 +92,7 @@
         "id": 3,
         "name": "DEATH STRANDING",
         "price": "R$159,99",
-        "image": "/assets/resources/images/DS.png",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1718100326",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_f64a1140651ff5af30eb63bb6e5b41753d00a98e.1920x1080.jpg?t=1718100326",
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_d47bde2e349606b3ef1f641e2d8fb7ccf1adba77.1920x1080.jpg?t=1718100326",
@@ -122,7 +121,7 @@
         "id": 4,
         "name": "Red Dead Redemption 2",
         "price": "R$299,90",
-        "image": "/assets/resources/images/RDR22.png",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1714055653",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1714055653",
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.1920x1080.jpg?t=1714055653",
@@ -154,7 +153,7 @@
         "id": 5,
         "name": "Stardew Valley",
         "price": "R$24,99",
-        "image": "/assets/resources/images/Stardew.png",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1711128146",
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1711128146",
@@ -302,7 +301,7 @@
         "id": 10,
         "name": "EA SPORTS FC™ 24",
         "price": "R$359,00",
-        "image": "/assets/resources/images/EAFC.png",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1719935449",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_f3d31c7cffc2a6ab42fb76aaac2bc9d5258bc142.1920x1080.jpg?t=1718274603",
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_6c1ef918ffe94050e72dcb2cfad3a95ee3d69f08.1920x1080.jpg?t=1718274603",
@@ -326,6 +325,659 @@
             "A tecnologia HyperMotionV captura o jogo como ele é realmente, usando dados volumétricos de mais de 180 partidas de futebol profissional masculino e feminino para garantir uma movimentação autêntica.",
             "Dê boas-vindas ao futebol feminino no Ultimate Team™ e monte seu time dos sonhos com ligas e competições femininas, incluindo WSL, NWSL, DIF, UWCL, Frauen Bundesliga e Liga F.",
             "Crie e implemente suas táticas com recursos de gerenciamento modernos na Carreira de Manager, ou pavimente seu caminho para a glória com novos recursos de Agente de Jogador na Carreira de Jogador."
+        ]
+       },
+       { 
+        "id": 11,
+        "name": "NBA 2K23",
+        "price": "R$299,90",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/header.jpg?t=1719588484",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/ss_8c214bbc6c34b2d681628e94c2f3158cd9d6eb3a.1920x1080.jpg?t=1719588484",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/ss_91c4e1cd57a692d6fe6ebbc662cd549820e42de1.1920x1080.jpg?t=1719588484",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/ss_55a604839cbea17adb19a1941a497f3ce11e470e.1920x1080.jpg?t=1719588484",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/ss_8c214bbc6c34b2d681628e94c2f3158cd9d6eb3a.1920x1080.jpg?t=1719588484"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256968106/movie480_vp9.webm?t=1694019888",
+        "releaseDate": "8 set. de 2023",
+        "shortDescription": "Entre de cabeça na cultura do basquete no NBA 2K24. Mergulhe em muita ação e explore as opções personalizadas ilimitadas do MyPLAYER no MyCAREER. Monte sua escalação perfeita no MyTEAM.",
+        "gameCategories": [
+            "Basquete",
+            "Esportes",
+            "Simulação",
+            "eSports",
+            "3D"
+        ],
+        "developer": "Visual Concepts",
+        "publisher": "2K",
+        "aboutApps": [
+            "Junte sua equipe e viaje pelo passado, presente e futuro da cultura do basquete em NBA 2K24. Mergulhe na mais pura e autêntica ação do basquete, explorando as opções personalizadas ilimitadas do MyPLAYER no MyCAREER. Colecione uma impressionante variedade de lendas e monte sua escalação perfeita no MyTEAM. Experimente uma jogabilidade mais responsiva e visuais primorosos ao jogar com suas equipes favoritas da NBA e WNBA em JOGUE AGORA.",
+            "Deixe sua marca em um deslumbrante Neighborhood litorâneo, com uma paisagem de cartão postal e competições acirradas. Use a criação de jogadores reformulada para criar um MyPLAYER que corresponde às suas habilidades, para que você possa jogar com seus pontos fortes e aproveitar ao máximo o sistema de emblemas atualizado. Explore o terreno na encosta, conclua um novo conjunto de missões simplificadas e enfrente jogadores rivais no cenário derradeiro do MyCAREER.",
+            "O modo clássico de coleta de cartas está de volta e cheio de infinitas horas de diversão personalizável. Junte o passado ao presente usando All-Stars de hoje e lendas históricas para formar um time capaz de dominar os modos de um jogador e multijogador. O MyTEAM apresenta uma coleção de melhorias inovadoras, incluindo um novo modo de teto salarial, mantendo sua tão conhecida competitividade.",
+            "Aproveite a jogabilidade mais autêntica já apresentada, com ênfase na mecânica perfeita e atenção aos detalhes. Exiba seu profundo arsenal de movimentos com a defesa interna renovada e controles combo de drible para ações baseadas em habilidades mais gratificantes e uma maior eficácia."
+        ]
+       },
+       { 
+        "id": 12,
+        "name": "Tony Hawk's™ Pro Skater™ 1 + 2",
+        "price": "R$199,00",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/header.jpg?t=1696374771",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/ss_de7db46ee5f6164dfdb467ad1659f7981e285824.1920x1080.jpg?t=1696374771",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/ss_866a178397cc58e5578e39e19c2233b05528d720.1920x1080.jpg?t=1696374771",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/ss_ccc432a7c5c36283b40dc2460de7f0c40ad29e02.1920x1080.jpg?t=1696374771",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/ss_ec25ed04ad1213a8fc7a5d7555ee661db7876eea.1920x1080.jpg?t=1696374771"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256971669/movie480_vp9.webm?t=1696374748",
+        "releaseDate": "3 out. de 2023",
+        "shortDescription": "Jogue a versão totalmente remasterizada de Tony Hawk’s™ Pro Skater™ e Tony Hawk’s™ Pro Skater™ 2 numa coleção nervosa, recriada do zero em alta definição.",
+        "gameCategories": [
+            "Esportes",
+            "Skate",
+            "Multijogador",
+            "Um Jogador",
+            "3D"
+        ],
+        "developer": "Vicarious Visions",
+        "publisher": "Activision",
+        "aboutApps": [
+            "Jogue a versão totalmente remasterizada de Tony Hawk’s™ Pro Skater™ e Tony Hawk’s™ Pro Skater™ 2 numa coleção nervosa, recriada do zero em alta definição.",
+            "Jogue com o lendário Tony Hawk e o elenco Pró original, além de novos skatistas. Ande de skate escutando a trilha sonora que marcou época e novas músicas. Faça altas sequências de manobras com a clássica jogabilidade da série Tony Hawk’s™ Pro Skater™.",
+            "Curta todos os modos originais e duele nos modos locais para dois jogadores. Capriche no visual e na criatividade com as funções Crie-Sua-Pista e Crie-Seu-Skatista. Encare jogadores do mundo inteiro nos modos e placares Multijogador."
+        ]
+       },
+       { 
+        "id": 13,
+        "name": "WWE 2K24",
+        "price": "R$299,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315690/header.jpg?t=1719596538",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315690/ss_81e9d8ebeddac03d15ec5197564714af400f0b5b.1920x1080.jpg?t=1719596538",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315690/ss_db362020d3d71ec2b5c71d6909dad3fdfe7b3a5f.1920x1080.jpg?t=1719596538",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315690/ss_a62d4d742b455da68d59c2817b518ad0b675bc8c.1920x1080.jpg?t=1719596538",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315690/ss_4d588954fb4bb0fa140d3d43da7e59e239d842b6.1920x1080.jpg?t=1719596538"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256999254/movie480_vp9.webm?t=1707230904",
+        "releaseDate": "8 mar. de 2024",
+        "shortDescription": "Reviva os maiores momentos da WrestleMania no 2K Showcase dos Imortais no WWE 2K24, em que poderá relembrar algumas das lutas mais inesquecíveis e que definiram carreiras.",
+        "gameCategories": [
+            "Esportes",
+            "Luta Livre",
+            "Luta",
+            "Controle",
+            "Multijogador"
+        ],
+        "developer": "Visual Concepts",
+        "publisher": "2K",
+        "aboutApps": [
+            "WrestleMania é o maior evento do entretenimento esportivo, em que Superstars tornam-se Lendas do WWE. Reviva os maiores momentos da WrestleMania no 2K Showcase dos Imortais, em que poderá relembrar algumas das lutas mais inesquecíveis e que definiram carreiras.",
+            "O WWE 2K24 traz um elenco estelar de Lendas do WWE como “Stone Cold” Steve Austin, Undertaker e Andre the Giant, além de Superstars atuais do WWE como “The American Nightmare” Cody Rhodes, John Cena, Rhea Ripley e Roman Reigns, com suas entradas empolgantes e golpes exclusivos, destacados pelos gráficos ultrarrealistas.",
+            "Com Árbitros Convidados, Caixão, Gauntlet e Ambulância, temos uma lista de novos tipos de lutas para você curtir no WWE 2K24, incluindo suporte para vários Superstars no Backstage Brawl.",
+            "Liberte seu talento inato e torne-se o campeão invicto no MyRISE, que traz dois empolgantes planos de carreira e enredos originais, que contam a sua ascensão ao estrelato do WWE, nas divisões masculina e feminina."
+        ]
+       },
+       { 
+        "id": 14,
+        "name": "Madden NFL 24",
+        "price": "R$359,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140330/header.jpg?t=1715696274",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140330/ss_c259f29daea8117401ca4d73199315c6cb2ea53c.1920x1080.jpg?t=1715696274",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140330/ss_df732cb7d98c15ffe4670370c29e694d065c9949.1920x1080.jpg?t=1715696274",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140330/ss_13d3338466a3cd1fe83e118d19272d68b292d8c2.1920x1080.jpg?t=1715696274",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140330/ss_cf7e7c778288c1764a722d8e60ef6e63837623b9.1920x1080.jpg?t=1715696274"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256953492/movie480_vp9.webm?t=1692715373",
+        "releaseDate": "17 ago. de 2023",
+        "shortDescription": "Experimente a mais nova iteração do FieldSENSE™ no Madden NFL 24. A movimentação de personagens mais realista e a IA mais inteligente permitem que você controle sua estratégia de jogo com a confiança para dominar qualquer adversário.",
+        "gameCategories": [
+            "Esportes",
+            "Futebol Americano",
+            "Multijogador",
+            "Um Jogador",
+            "Estratégia"
+        ],
+        "developer": "Tiburon",
+        "publisher": "Electronic Arts",
+        "aboutApps": [
+            "Apresentando a tecnologia SAPIEN no Madden NFL 24 — A tecnologia SAPIEN proporciona um avanço no realismo dos jogadores da NFL com mais definição corporal e variação na forma física dos atletas, resultando em movimentos realistas dos jogadores.",
+            "FieldSENSE™ — A mais nova versão do FieldSENSE oferece uma base de jogabilidade aprimorada, proporcionando maior controle e fornecendo realismo a todas as formas de jogar.",
+            "Aprimoramentos de IA — A IA mais inteligente possibilita ação e reação mais realistas e suaves às jogadas que você aciona, oferecendo mais confiança nos seus companheiros de equipe de IA para executar seu plano de jogo da maneira que quiser.",
+            "Passes baseados em habilidade 2.0 — Mergulhe para vencer com uma IA aprimorada, acerte com precisão cirúrgica usando novas animações de arremesso e antecipe reações defensivas mais autênticas com o comportamento de DE aprimorado introduzido nos Passes Baseados em Habilidade 2.0."
+        ]
+       },
+       { 
+        "id": 15,
+        "name": "ELDEN RING",
+        "price": "R$309,90",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header_alt_assets_2_brazilian.jpg?t=1719962233",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1719962233",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg?t=1719962233",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_ef61b771ee6b269b1f0cb484233e07a0bfb5f81b.1920x1080.jpg?t=1719962233",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.1920x1080.jpg?t=1719962233"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256889456/movie480_vp9.webm?t=1654109241",
+        "releaseDate": "24 fev. de 2022",
+        "shortDescription": "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+        "gameCategories": [
+            "RPG",
+            "Soulslike",
+            "Fantasia Sombria",
+            "Mundo Aberto",
+            "Terceira Pessoa"
+        ],
+        "developer": "FromSoftware Inc.",
+        "publisher": "Bandai Namco Entertainment",
+        "aboutApps": [
+            "Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+            "Um mundo vasto onde campos abertos e uma variedade de situações e masmorras imensas, com complexos designs tridimensionais se conectam com fluidez. Conforme explora, sinta a alegria de descobrir poderosas e desconhecidas ameaças que aguardam por você, levando a um grande senso de conquista.",
+            "Além de personalizar a aparência do seu personagem, você pode combinar livremente armas, armaduras e magias que equipar. Você pode desenvolver seu personagem de acordo com seu estilo de jogo, como aumentar a força muscular para se tornar um poderoso guerreiro, ou dominar a magia.",
+            "Uma história cheia de camadas, contada em fragmentos. Um drama épico onde os vários pensamentos dos personagens se interligam nas Terras Intermédias."
+        ]
+       },
+       { 
+        "id": 16,
+        "name": "Diablo® IV",
+        "price": "R$229,90",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/header.jpg?t=1719248064",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_9ba2c9634f88f684f069d42d4de6a42f63b07911.1920x1080.jpg?t=1719248064",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_2f6e682e3e72703728d2502efacefdababa03493.1920x1080.jpg?t=1719248064",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_95a1edc7f4fc9bd6770e0a4e57baa9dc548e5aa4.1920x1080.jpg?t=1719248064",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_8ddffa04fa1d89db8336a7cdddc989a2fb36f0a9.1920x1080.jpg?t=1719248064"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/257030511/movie480_vp9.webm?t=1718138200",
+        "releaseDate": "17 out. de 2023",
+        "shortDescription": "Junte-se à luta por Santuário no Diablo® IV, a aventura suprema de RPG de ação. Vivencie a campanha aclamada pela crítica e os novos conteúdos de temporada.",
+        "gameCategories": [
+            "RPG",
+            "Hack and Slash",
+            "Isométrico",
+            "Exploração",
+            "Saques"
+        ],
+        "developer": "Blizzard Entertainment, Inc.",
+        "publisher": "Blizzard Entertainment, Inc.",
+        "aboutApps": [
+            "Diablo® IV é a experiência de RPG de ação suprema, com infinitos seres malignos para massacrar, incontáveis habilidades para dominar, masmorras aterrorizantes e saques lendários. Embarque na campanha épica sozinho ou com amigos e conheça personagens memoráveis em uma história eletrizante situada em um belo mundo sombrio, ou explore um fim de jogo vasto: lute pelo primeiro lugar nas classificações do Desafio, reaja ao ataque do Inferno nas Marés Infernais, domine a Forja para criar suas armas supremas e crie personagens poderosos, com jogo e progressão multiplataforma em todas as plataformas disponíveis.",
+            "Conheça a franquia aclamada pelos críticos que definiu o gênero RPG de ação. Enquanto a batalha entre o Paraíso Celestial e o Inferno Ardente continua, o ódio devora Santuário conforme o mal se espalha e uma nova onda de cultistas e adoradores surge para receber o advento de Lilith. Somente alguns poucos ousam enfrentar essa ameaça e iluminar a escuridão que tudo devora.",
+            "Crie e personalize seu personagem para enfrentar a escuridão que se aproxima. Escolha uma de cinco classes e monte seu herói com técnicas, habilidades e itens cosméticos, criando um campeão exclusivo. Fique cada vez mais forte ao progredir por árvores de habilidades poderosas e desenvolva especializações de fim de jogo ainda mais únicas com os Quadros de Excelência.",
+            "Descubra e experimente um vasto arsenal de armas, armaduras e outros itens poderosos para enfrentar os demônios que ameaçam Santuário. Explore combinações únicas, crie suas próprias melhorias e colecione diversas ferramentas poderosas para combater em batalhas imersivas e cheias de ação contra inimigos letais."
+        ]
+       },
+       { 
+        "id": 17,
+        "name": "Cyberpunk 2077",
+        "price": "R$199,90",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1718101184",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1718101184",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.1920x1080.jpg?t=1718101184",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_8640d9db74f7cad714f6ecfb0e1aceaa3f887e58.1920x1080.jpg?t=1718101184",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_872822c5e50dc71f345416098d29fc3ae5cd26c1.1920x1080.jpg?t=1718101184"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256984152/movie480_vp9.webm?t=1700653157",
+        "releaseDate": "9 dez. de 2020",
+        "shortDescription": "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto que se passa em Night City, uma megalópole perigosa onde todos são obcecados por poder, glamour e alterações corporais.",
+        "gameCategories": [
+            "Cyberpunk",
+            "Mundo Aberto",
+            "Ação",
+            "Um Jogador",
+            "Futurista"
+        ],
+        "developer": "CD PROJEKT RED",
+        "publisher": "CD PROJEKT RED",
+        "aboutApps": [
+            "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City, onde você é um mercenário cyberpunk envolvido em uma intensa luta pela sobrevivência. Com diversas melhorias e conteúdo adicional gratuito, personalize o seu personagem e o seu estilo de jogo conforme aceita trabalhos, construa uma reputação e desbloqueie melhorias. Seus relacionamentos e suas escolhas moldarão a história e o mundo ao seu redor. Aqui nascem as lendas. Qual será a sua?",
+            "Na atualização gratuita 2.1, Night City está mais viva do que nunca! Dê uma volta no sistema de metrô NCART totalmente funcional, ouça música enquanto anda pela cidade com o Radioport, encontre-se com seu par romântico no apartamento de V, participe de corridas repetíveis, dirija novos veículos, aproveite as melhorias de combate na moto e suas manobras, descubra segredos e muito, muito mais!",
+            "Torne-se um fora-da-lei urbano equipado com melhorias cibernéticas e crie sua lenda nas ruas de Night City.",
+            "Night City está repleta de coisas para fazer, lugares para ver e pessoas para conhecer. Você decide aonde ir, quando ir e como chegar lá."
+        ]
+       },
+       { 
+        "id": 18,
+        "name": "Detroit: Become Human",
+        "price": "R$119,90",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_3011c05e404043e3bfed1f6de7fe12ffd58ddc9b.1920x1080.jpg?t=1667468479",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_b1e2a185bea13cccfc662e1286912bcd6f4ee798.1920x1080.jpg?t=1667468479",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_7b1c36dbc3deb1515a65aaaca42795813de08a83.1920x1080.jpg?t=1667468479",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_71d12349ce93190af99dbf48faeae50416d9cbc7.1920x1080.jpg?t=1667468479"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256784014/movie480_vp9.webm?t=1590429401",
+        "releaseDate": "18 jun. de 2020",
+        "shortDescription": "Detroit: Become Human coloca o destino da humanidade e dos androides em suas mãos. Todas as suas escolhas afetam o resultado do jogo, com uma das narrativas mais intrinsecamente ramificadas já criadas.",
+        "gameCategories": [
+            "Você Decide",
+            "Boa Trama",
+            "Vários Finais",
+            "Ficção Científica",
+            "Futurista"
+        ],
+        "developer": "Quantic Dream",
+        "publisher": "Quantic Dream",
+        "aboutApps": [
+            "Detroit 2038. A tecnologia evoluiu a um ponto em que androides humanoides estão por todo lado. Eles falam, se movem e se comportam como seres humanos, mas são apenas máquinas a serviço dos humanos.",
+            "Entre em um mundo onde dilemas morais e decisões difíceis pode transformar escravos androides em revolucionários capazes de mudar o mundo. Descubra o que significa ser humano na perspectiva de alguém de fora - e veja o mundo através dos olhos de uma máquina.",
+            "Dê forma a uma ambiciosa narrativa ramificada em que suas decisões determinarão não só o destino dos três personagens principais, mas também de toda Detroit. O modo como você controla Kara, Connor e Markus pode significar viver ou morrer - e se um deles pague o mais alto preço, a história não para...",
+            "Cada decisão que você tomar, não importa quão pequena, afetará o resultado da história. Nenhuma experiência de jogo vai ser exatamente a mesma: jogue mais vezes para descobrir conclusões completamente diferentes."
+        ]
+       },
+       { 
+        "id": 19,
+        "name": "Forza Horizon 5",
+        "price": "R$249,00",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1718730250",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.1920x1080.jpg?t=1718730250",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.1920x1080.jpg?t=1718730250",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.1920x1080.jpg?t=1718730250",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_0bc32360d32b21abdf889422385cd753862dd73e.1920x1080.jpg?t=1718730250"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256875134/movie480_vp9.webm?t=1647525311",
+        "releaseDate": "9 nov. de 2021",
+        "shortDescription": "Explore um mundo aberto vibrante nas terras mexicanas com corridas divertidas e sem limites enquanto pilota os melhores carros do mundo. Acelere para o Parque Hot Wheels e corra nas pistas mais radicais já criadas. Requer Forza Horizon 5, expansão vendida separadamente.",
+        "gameCategories": [
+            "Corrida",
+            "Direção",
+            "Multijogador",
+            "Aventura",
+            "Arcade"
+        ],
+        "developer": "Playground Games",
+        "publisher": "Xbox Game Studios",
+        "aboutApps": [
+            "Sua maior aventura Horizon te espera! Lidere impressionantes expedições pelo mundo aberto vibrante e em constante evolução nas terras mexicanas. Participe de corridas divertidas e sem limites enquanto pilota centenas dos melhores carros do mundo.",
+            "Essa é sua Aventura Horizon. Lidere impressionantes expedições pelo mundo aberto vibrante e em constante evolução nas terras mexicanas. Participe de corridas divertidas e sem limites enquanto pilota centenas dos melhores carros do mundo.",
+            "Explore um mundo de grande contraste e beleza. Descubra desertos vivos, selvas exuberantes, cidades históricas, ruínas escondidas, praias intocadas, desfiladeiros profundos e um imponente vulcão com seu cume coberto de neve.",
+            "Mergulhe em uma vasta campanha com centenas de desafios que concedem recompensas por participar de suas atividades favoritas. Conheça novos personagens e decida os resultados das missões de História do Horizon."
+        ]
+       },
+       { 
+        "id": 20,
+        "name": "F1® 24",
+        "price": "R$359,00",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/header.jpg?t=1718789380",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/ss_fb5f9f2a64addf4f8f718d0caf35741944d61393.1920x1080.jpg?t=1718789380",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/ss_c39194023e6f15f8ba7239600041b3ad64381964.1920x1080.jpg?t=1718789380",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/ss_54eaf8552dc23a87b7e66c97b319a6c201a7b3a9.1920x1080.jpg?t=1718789380",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/ss_5e9f7ae751c222dd81e76b8db856e573ee85e2c6.1920x1080.jpg?t=1718789380"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/257032261/movie480_vp9.webm?t=1718789373",
+        "releaseDate": "31 mai. de 2024",
+        "shortDescription": "Alcance as primeiras colocações e pilote como as feras do automobilismo no EA SPORTS™ F1® 24, o jogo oficial do 2024 FIA Formula One World Championship™.",
+        "gameCategories": [
+            "Corrida",
+            "Direção",
+            "Esportes",
+            "RV",
+            "Multijogador"
+        ],
+        "developer": "Codemasters",
+        "publisher": "Electronic Arts",
+        "aboutApps": [
+            "Saia na Frente com o EA SPORTS™ F1® 24, o jogo oficial do 2024 FIA Formula One World Championship™. Liberte sua competitividade em busca de uma carreira histórica na F1®, com a primeira grande atualização desse modo desde 2016. Pilote como as feras do automobilismo e entre em sintonia com seu carro com o novo sistema de dirigibilidade dinâmica da EA SPORTS. Impulsione sua paixão vinculando-se às suas equipes e pilotos favoritos enquanto demonstra suas habilidades em novos modos e experiências.",
+            "Liberte sua competitividade e descubra o repaginado modo Carreira de piloto com uma nova jogabilidade enraizada no automobilismo ou curta o modo Carreira para duas pessoas em boa companhia",
+            "Encare uma pilotagem mais autêntica. Com a nova física, você tem mais controle sobre como seu estilo de direção impacta o desempenho do carro e sua estratégia de corrida.",
+            "Um novo recurso interativo da temporada da F1® que oferece um jogo competitivo episódico com eventos e desafios únicos, permitindo que membros da comunidade disputem pelas melhores pontuações e votem nas redes sociais para influenciar o conteúdo que vem por ai."
+        ]
+       },
+       { 
+        "id": 21,
+        "name": "The Crew Motorfest",
+        "price": "R$299,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/header.jpg?t=1715612457",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/ss_d88a7b6cf59355545b0a90a8254379edd423cc06.1920x1080.jpg?t=1715612457",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/ss_933b5c1de0571f4e0c26c39ca3a4f68a314b2e38.1920x1080.jpg?t=1715612457",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/ss_8f7be2c7a031b730a817773f4a1cc9b9cca301df.1920x1080.jpg?t=1715612457",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/ss_6fb5b43b64673d0a7ae4600591bc72c62927f751.1920x1080.jpg?t=1715612457"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/257003063/movie480_vp9.webm?t=1711470443",
+        "releaseDate": "18 abr. de 2024",
+        "shortDescription": "The Crew Motorfest é um jogo de corrida online de mundo aberto ambientado na ilha de O'ahu, no Havaí. Experimente o melhor da cultura do automobilismo participando de corridas intensas e eventos temáticos, e colecionando centenas de carros icônicos.",
+        "gameCategories": [
+            "Corrida",
+            "Arcade",
+            "Direção",
+            "Esportes",
+            "Um Jogador"
+        ],
+        "developer": "Ubisoft Ivory Tower",
+        "publisher": "Ubisoft",
+        "aboutApps": [
+            "Pegue seu ingresso para o Motorfest, mostre suas habilidades e a viva as experiências de pilotagem mais emocionantes que a cultura do automobilismo tem para oferecer!",
+            "Descubra as playlists e encare campanhas temáticas que levarão você aos universos mais empolgantes da cultura do automobilismo, incluindo carros esportivos americanos, corridas de rua ao estilo japonês e máquinas lendárias do passado!",
+            "Supere qualquer desafio de direção e complete sua coleção com os veículos mais lendários já criados. Personalize seus carros e mostre seu estilo no modo de competição personalizada.",
+            "The Crew Motorfest tem como cenário um dos lugares mais impressionantes do planeta, a ilha de O'ahu, no Havaí. Dispute corridas de rua em alta velocidade pela agitada Honolulu, teste suas habilidades de direção em qualquer terreno pelas encostas cinzentas de um vulcão ou faça aquela curva perfeita nas pistas."
+        ]
+       },
+       { 
+        "id": 22,
+        "name": "Need for Speed™ Payback",
+        "price": "R$89,00",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/header.jpg?t=1692306558",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/ss_afc36c446e528e64298b881d59d245e0426d0673.1920x1080.jpg?t=1692306558",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/ss_d81665a501336c92ecc0af24fbc672be9ec924cc.1920x1080.jpg?t=1692306558",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/ss_c808818da89f8dff9cdc85789e8f6f089b257bea.1920x1080.jpg?t=1692306558",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/ss_fa7fcfe1b5854c4f7af4ecb8d33a14749b613ef4.1920x1080.jpg?t=1692306558"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256789561/movie480_vp9.webm?t=1592508923",
+        "releaseDate": "6 nov. de 2017",
+        "shortDescription": "Need for Speed™ Payback - Deluxe Edition coloca você na frente da competição. Destaque-se em meio à multidão com itens exclusivos de customização e receba descontos dentro do jogo, bônus de reputação e cinco remessas para começar sua aventura.",
+        "gameCategories": [
+            "Corrida",
+            "Corrida com Combate",
+            "Multijogador",
+            "Controle",
+            "Arcade"
+        ],
+        "developer": "Ghost Games",
+        "publisher": "Electronic Arts",
+        "aboutApps": [
+            "Need for Speed™ Payback - Deluxe Edition coloca você na frente da competição.",
+            "Destaque-se em meio à multidão com itens exclusivos de customização e receba descontos no jogo, bônus de reputação e cinco remessas para começar sua aventura.",
+            "A Deluxe Edition também inclui o futuro Story Mission Pack e o Platinum Car Pack de Need for Speed™ Payback com o exclusivo† Brilho Néon Azul Platina."
+        ]
+       },
+       { 
+        "id": 23,
+        "name": "Terraria",
+        "price": "R$32,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1666290860",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.1920x1080.jpg?t=1666290860",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_ae168a00ab08104ba266dc30232654d4b3c919e5.1920x1080.jpg?t=1666290860",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_9edd98caaf9357c2f40758f354475a56e356e8b0.1920x1080.jpg?t=1666290860",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_26c4a091c482be28efe1ecf4dfb498273e5a9107.1920x1080.jpg?t=1666290860"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/2040428/movie480.webm?t=1447376855",
+        "releaseDate": "16 mai. de 2011",
+        "shortDescription": "Cave, lute, explore, construa! Nada é impossível neste jogo de aventura cheio de ação. Pacote Quatro também disponível!",
+        "gameCategories": [
+            "Faça o que quiser",
+            "Sobrevivência",
+            "Aventura",
+            "Exploração",
+            "2D"
+        ],
+        "developer": "Re-Logic",
+        "publisher": "Re-Logic",
+        "aboutApps": [
+            "Cave, lute, explore, construa! Nada é impossível nesse jogo de aventura cheio de ação. O mundo é a sua tela de pintar e o chão em si é a sua tinta.",
+            "Pegue suas ferramentas e vá! Faça novas armas para lutar contra uma variedades de inimigos em numerosos biomas. Cave profundamente no subsolo para encontrar acessórios, dinheiro e outras coisas úteis. Reúna recursos para criar tudo o que você precisa para tornar o mundo o seu próprio.",
+            "Construa uma casa, um forte ou até mesmo um castelo. Pessoas vão se mudar e viver lá e talvez até vender para você diferentes mercadorias para ajudá-lo em sua jornada. Mas cuidado, há ainda mais desafios à sua espera... Você está à altura da tarefa?"
+        ]
+       },
+       { 
+        "id": 24,
+        "name": "Baldur's Gate 3",
+        "price": "R$199,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg?t=1713271288",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg?t=1713271288",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1713271288",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.1920x1080.jpg?t=1713271288",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_f8c7fcdeccbfe77e3fad33330a464fed30f781f0.1920x1080.jpg?t=1713271288"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256961600/movie480_vp9.webm?t=1695393579",
+        "releaseDate": "3 ago. de 2023",
+        "shortDescription": "Reúna seu grupo e retorne aos Reinos Esquecidos em uma história de companheirismo e traição, sacrifício e sobrevivência, e a atração do poder absoluto.",
+        "gameCategories": [
+            "Você Decide",
+            "RPG",
+            "Aventura",
+            "Fantasia",
+            "Combate em Turnos"
+        ],
+        "developer": "Larian Studios",
+        "publisher": "Larian Studios",
+        "aboutApps": [
+            "Reúna seu grupo e volte aos Reinos Esquecidos em uma história de amizade e traição, sacrifício e sobrevivência, e tentação pelo poder absoluto.",
+            "Habilidades misteriosas despertam em você, semeadas por um parasita devorador de mentes no seu cérebro. Resista e faça a escuridão ruir a si mesma, ou aceite a corrupção e torne-se o mal supremo.",
+            "Escolha dentre diversas raças e classes de D&D ou assuma o papel de um personagem original com um histórico detalhado. Aventure-se, saqueie, lute e envolva-se em romances ao longo da sua jornada pelos Reinos Esquecidos e além. Jogue solo e escolha seus companheiros com cuidado, ou jogue em grupo com até quatro amigos no multijogador.",
+            "Vítima de um rapto e sem rumo, você está se transformando em um monstro devido a uma infecção. No entanto, quanto mais a corrupção se desenvolve, mais forte você fica. Este poder tem seus benefícios, mas também um preço a pagar. E, mais do que qualquer habilidade, os laços de confiança que nutrir com seus companheiros podem ser sua maior força. Em meio a um conflito entre demônios, divindades e forças sobrenaturais sinistras, o destino dos Reinos Esquecidos está em suas mãos."
+        ]
+       },
+       { 
+        "id": 25,
+        "name": "Hogwarts Legacy",
+        "price": "R$249,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg?t=1717689083",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_df93b5e8a183f7232d68be94ae78920a90de1443.1920x1080.jpg?t=1717689083",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_94058497bf0f8fabdde17ee8d59bece609a60663.1920x1080.jpg?t=1717689083",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_8e08976236d29b1897769257ac3c64e9264792a5.1920x1080.jpg?t=1717689083",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_d4930d675af053dc1e61a876a34fc003e85e261f.1920x1080.jpg?t=1717689083"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256930504/movie480_vp9.webm?t=1676412591",
+        "releaseDate": "10 fev. de 2023",
+        "shortDescription": "Hogwarts Legacy é um RPG de ação imersivo de mundo aberto. Agora você pode assumir o controle da ação e estar no centro de sua própria aventura no mundo bruxo.",
+        "gameCategories": [
+            "Mágica",
+            "Um Jogador",
+            "Aventura",
+            "Fantasia",
+            "RPG"
+        ],
+        "developer": "Avalanche Software",
+        "publisher": "Warner Bros. Games",
+        "aboutApps": [
+            "Hogwarts Legacy é um RPG de ação imersivo e de mundo aberto ambientado no mundo introduzido pela primeira vez nos livros do Harry Potter. Embarque em uma jornada por locais novos e familiares enquanto explora e descubra animais fantásticos, personalize seu personagem e crie poções, domine o lançamento de feitiços, aprimore talentos e torne-se o bruxo que deseja ser.",
+            "Experimente Hogwarts da década de 1800. Seu personagem é um estudante com chave de um antigo segredo que ameaça destruir o mundo bruxo. Faça aliados, lute contra os bruxos das trevas e decida o destino do mundo bruxo. Seu legado é o que você faz dele. Viva o Inesperado.",
+            "Inclui a missão da Loja Assombrada de Hogsmeade, que concede acesso a uma masmorra adicional, Conjunto de Cosméticos do Lojista, e uma loja de Hogsmeade no jogo.",
+            "Novos itens cosméticos agora disponíveis para todos os jogadores: Os Óculos que Sobreviveram, Uniforme e Casaco do Prisioneiro de Azkaban, Hipogrifo Ônix de Montaria, Receita da Poção Felix Felicis, Vassouras do Bruxo das Trevas (2)"
+        ]
+       },
+       { 
+        "id": 26,
+        "name": "DayZ",
+        "price": "R$149,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1719328136",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/ss_bf0e5d5538d95a1cb943a7963489ba4df2782942.1920x1080.jpg?t=1719328136",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/ss_4b71f0ac633c88e8af8de1c4eec0b5b263f989cc.1920x1080.jpg?t=1719328136",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/ss_9517bb26b6811f70b5b19ece4bce3e90452378d3.1920x1080.jpg?t=1719328136",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/ss_6cd9e955be805c9c55a95540c325dd74493cc557.1920x1080.jpg?t=1719328136"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256790906/movie480_vp9.webm?t=1593118262",
+        "releaseDate": "13 dez. de 2018",
+        "shortDescription": "Quanto você aguenta em um mundo pós-apocalíptico? Uma terra arrasada por zumbis infectados, onde você compete com outros sobreviventes por recursos limitados. Você vai ajudar estranhos em sua luta? Ou evitará traições como um lobo solitário? Esse é o DayZ. Essa é a sua história.",
+        "gameCategories": [
+            "Sobrevivência",
+            "Simulação",
+            "Tiro",
+            "Pós-Apocalíptico",
+            "PvP"
+        ],
+        "developer": "Bohemia Interactive",
+        "publisher": "Bohemia Interactive",
+        "aboutApps": [
+            "Não há marcadores de mapa, missões diárias ou placares para ajudar a criar a sua história. Há apenas a Chernorússia: 230 km² de um país pós-soviético afetado por um vírus desconhecido que transformou a maior parte de sua população em infectados furiosos.",
+            "Sua missão? Sobreviver ao colapso da civilização pelo maior tempo possível. Lembre-se que a morte é permanente na cruel Chernorússia. Tudo que você te ao reiniciar novamente são as memórias de seu último erro.",
+            "Até 60 pessoas estão se esforçando para sobreviver a qualquer custo a todo instante. Faça amizades, elimine à primeira vista, construa uma base ou arrisque sofrer uma traição em troca de uma lata de feijões saborosos. Use VOIP para interagir com outros jogadores como preferir. Todo encontro é significativo quando a sua vida está em jogo. Mas atenção. Mantenha-se alerta. Não confie em ninguém.",
+            "Não adianta só se preocupar com os infectados, há também a vida selvagem e os elementos da natureza. Evite matilhas de lobos e ursos coléricos, encontre abrigo para se proteger da chuva castigante e busque uma luz em meio à escuridão da noite. Você também vai ter que dominar mecânicas de sobrevivência complexos em relação a fome, sede, temperatura corporal e muito mais."
+        ]
+       },
+       { 
+        "id": 27,
+        "name": "Rust",
+        "price": "R$103,49",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1715591843",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_271feae67943bdc141c1249aba116349397e9ba9.1920x1080.jpg?t=1715591843",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.1920x1080.jpg?t=1715591843",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.1920x1080.jpg?t=1715591843",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_2a8518810024a5fbf9c714e697a43a1201b5d53e.1920x1080.jpg?t=1715591843"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256684736/movie480_vp9.webm?t=1699598112",
+        "releaseDate": "8 fev. de 2018",
+        "shortDescription": "O único objetivo em Rust é sobreviver. Tudo quer que você morra - a vida selvagem da ilha e outros habitantes, o meio ambiente, outros sobreviventes. Faça o que for preciso para durar mais uma noite.",
+        "gameCategories": [
+            "Sobrevivência",
+            "Fabricação",
+            "Multijogador",
+            "Construção",
+            "PvP"
+        ],
+        "developer": "Facepunch Studios",
+        "publisher": "Facepunch Studios",
+        "aboutApps": [
+            "Rust está em seu 10º ano e já teve mais de 375 atualizações de conteúdo, com um patch de conteúdo garantido todos os meses. Desde correções regulares de equilíbrio e melhorias até atualizações de IA e gráficos até a adição de conteúdo como novos mapas, instrumentos musicais, trens e drones, bem como temporadas e eventos regulares, sempre há algo interessante ou perigoso (ou ambos) acontecendo na ilha.",
+            "Você acorda nu em uma ilha misteriosa armado apenas com uma pedra e uma tocha. Você precisará enfrentar perigos naturais (do calor e do frio à sede e fome), construir um abrigo, comer (ou ser comido), coletar materiais. Explore a ilha, seus assentamentos abandonados, monumentos misteriosos e as facções que os ocupam. Mas, acima de tudo, tome cuidado com outros sobreviventes...",
+            "Projete e construa bases para defender seu território ou controlar os recursos da ilha. Pesquise a árvore tecnológica, cultive fazendas, comande eletricidade, comande veículos, de cavalos a carros, de barcos a helicópteros. O que for preciso para avançar.",
+            "Não existem regras no Rust, mas aquelas que você cria para si mesmo. Crie ferramentas, armaduras e armas para se defender. Coopere com amigos e aliados e construam uma cidade juntos. Explore a ilha e o que está acontecendo nela. Negocie com outros jogadores. Ou atacá-los, atacando suas bases e tomando seus bens conquistados com tanto esforço."
+        ]
+       },
+       { 
+        "id": 28,
+        "name": "Euro Truck Simulator 2",
+        "price": "R$61,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg?t=1718786615",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_54100267623179f54731048c91add16c1c3d3d1e.1920x1080.jpg?t=1718786615",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_e040f74641ac21f15e3ec7c2415fc8b4de0b6bf9.1920x1080.jpg?t=1718786615",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_fd675feae669c7fb4ca6dcfb738d49fb7b7a238d.1920x1080.jpg?t=1718786615",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_c6ca51ea68d6f9ce481538c9b6e85c8fdaa8064e.1920x1080.jpg?t=1718786615"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256882174/movie480_vp9.webm?t=1683632053",
+        "releaseDate": "18 out. de 2012",
+        "shortDescription": "Viaje pela Europa como o rei das estradas, um caminhoneiro que entrega cargas importantes por distâncias impressionantes! Com dezenas de cidades para explorar, sua resistência, habilidade e velocidade serão levadas ao limite.",
+        "gameCategories": [
+            "Direção",
+            "Transportes",
+            "Simulação",
+            "Relaxanta",
+            "Realístico"
+        ],
+        "developer": "SCS Software",
+        "publisher": "SCS Software",
+        "aboutApps": [
+            "Viaje pela Europa como o rei das estradas, um caminhoneiro que entrega cargas importantes por distâncias impressionantes! Com dezenas de cidades para explorar no Reino Unido, Bélgica, Alemanha, Itália, Holanda, Polónia e muito mais, a sua resistência, habilidade e velocidade serão levadas ao limite. Se você tem o que é preciso para fazer parte de uma força de transporte rodoviário de elite, sente-se ao volante e prove!",
+            "Aproveite os recursos adicionais do Euro Truck Simulator 2 juntando-se à nossa comunidade online no World of Trucks, nosso centro para caminhoneiros virtuais de todo o mundo interessados ​​no Euro Truck Simulator 2 e nos futuros simuladores de caminhão da SCS Software.",
+            "World of Trucks é um serviço opcional, não é necessário registrar-se no World of Trucks para jogar."
+        ]
+       },
+       { 
+        "id": 29,
+        "name": "The Forest",
+        "price": "R$37,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.1920x1080.jpg?t=1699381053",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_772eebf0ce7bdb51546055a36185e8ee46e8acac.1920x1080.jpg?t=1699381053",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_d77d402c78451a04b5c370e81ff7767c4008343c.1920x1080.jpg?t=1699381053",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_233e1d0c71f1bc2d5cdeb96fa3f8974f0ab5e95d.1920x1080.jpg?t=1699381053"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256715589/movie480.webm?t=1525039057",
+        "releaseDate": "30 abr. de 2018",
+        "shortDescription": "Como o único sobrevivente de um acidente de avião de passageiros, você se encontra em uma floresta misteriosa lutando para permanecer vivo contra uma sociedade de mutantes canibais. Construa, explore e sobreviva neste aterrorizante simulador de terror de sobrevivência em primeira pessoa.",
+        "gameCategories": [
+            "Simulação"	,
+            "Fabricação",
+            "Construção",
+            "Exploração",
+            "Terror"
+        ],
+        "developer": "Endnight Games Ltd",
+        "publisher": "Endnight Games Ltd",
+        "aboutApps": [
+            "Como o único sobrevivente de um acidente de avião de passageiros, você se encontra em uma floresta misteriosa lutando para permanecer vivo contra uma sociedade de mutantes canibais.",
+            "Construa, explore e sobreviva neste aterrorizante simulador de terror de sobrevivência em primeira pessoa.",
+            "Entre em um mundo vivo e vibrante, onde todas as árvores e plantas podem ser derrubadas. Abaixo do solo, explore uma vasta rede de cavernas e lagos subterrâneos."
+        ]
+       },
+       { 
+        "id": 30,
+        "name": "Outlast 2",
+        "price": "R$88,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg?t=1618944453",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/ss_69427df3942114a8e0c598e03fc88112f65f7fdc.1920x1080.jpg?t=1618944453",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/ss_0b3a895b08f4a77e89cb970911c0b0fd213afa4e.1920x1080.jpg?t=1618944453",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/ss_c59ba4f141c241176e706a9bb3fbd5c1fd00ffc6.1920x1080.jpg?t=1618944453",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/ss_4a555bcd4c3507c23950149f8a9a6a3b138c01ba.1920x1080.jpg?t=1618944453"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256657834/movie480.webm?t=1447378716",
+        "releaseDate": "25 abr. de 2017",
+        "shortDescription": "Outlast 2 traz-te Sullivan Knoth e os seus seguidores, que abandonaram o nosso mundo cruel para fundar Temple Gate, uma cidade situada nas profundezas do deserto, longe da civilização. Knoth e o seu rebanho estão a preparar-se para as adversidades do fim dos tempos.",
+        "gameCategories": [
+            "Terror"	,
+            "Terror Psicológico",
+            "Violento",
+            "Sombrio",
+            "Um Jogador"
+        ],
+        "developer": "Red Barrels",
+        "publisher": "Red Barrels",
+        "aboutApps": [
+            "Outlast 2 traz-te Sullivan Knoth e os seus seguidores, que abandonaram o nosso mundo cruel para fundar Temple Gate, uma cidade situada nas profundezas do deserto, longe da civilização. Knoth e o seu rebanho estão a preparar-se para as adversidades do fim dos tempos, e tu estás no centro do furacão.",
+            "Tu és Blake Langermann, um operador de câmara que trabalha com a sua esposa, Lynn. Sois ambos jornalistas de investigação, dispostos a correr riscos e ir até ao fundo para descobrir as histórias que mais ninguém se atreveria a investigar.",
+            "Estais a seguir o rastro das pistas que tiveram origem no assassinato aparentemente impossível de uma mulher grávida, apenas conhecida como Jane Doe.",
+            "A investigação conduziu-vos até ao centro do deserto do Arizona, a uma escuridão tão profunda que ninguém poderia lançar um fio de luz sobre ela, e a uma corrupção tão intensa que enlouquecer poderá ser a solução mais sensata."
+        ]
+       },
+       { 
+        "id": 31,
+        "name": "Resident Evil 7 Biohazard",
+        "price": "R$66,90",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/header.jpg?t=1713310478",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/ss_d07fd9fca3644350782356667ce78d436c574680.1920x1080.jpg?t=1713310478",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/ss_4ba2efde83e86ad41dd962b6802c45029efbe75d.1920x1080.jpg?t=1713310478",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/ss_26cee827684c0b0ba39764add124c764979022d3.1920x1080.jpg?t=1713310478",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/ss_48bece562e150aa557b7debda63af059ef5ca1be.1920x1080.jpg?t=1713310478"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256674127/movie480.webm?t=1485771853",
+        "releaseDate": "24 jan. de 2017",
+        "shortDescription": "Medo e isolamento se infiltram nas paredes de uma casa de campo abandonada. '7' marca um novo início para o horror de sobrevivência com a “Visão Isolada” da visceral perspectiva em primeira pessoa.",
+        "gameCategories": [
+            "Terror"	,
+            "Primeira Pessoa",
+            "Zumbis",
+            "Terror Psicológico",
+            "Violento"
+        ],
+        "developer": "CAPCOM Co., Ltd.",
+        "publisher": "CAPCOM Co., Ltd.",
+        "aboutApps": [
+            "Resident Evil 7 biohazard é o próximo grande lançamento da renomada série Resident Evil e cria um novo curso para a franquia ao trazer à tona suas raízes e abrir a porta pra uma experiência de horror realmente aterrorizante. Uma mudança dramática na série para uma visão em primeira pessoa em um estilo fotorrealista, gerido pelo novo RE Engine da Capcom, Resident Evil 7 traz um nível de imersão sem precedentes que torna a trama de horror mais próxima e pessoal.",
+            "Passado na área rural dos Estados Unidos atualmente e após os dramáticos eventos de Resident Evil® 6, jogadores vivenciam o terror diretamente em uma perspectiva de primeira pessoa. Resident Evil 7 incorpora os elementos de exploração e a atmosfera tensa que são marca registrada da série e que criaram o 'sobrevivência ao terror' cerca de vinte anos atrás. Enquanto isso, uma atualização completa dos sistemas de jogo simultaneamente impulsionam a experiência do sobrevivência ao terror a um próximo nível."
+        ]
+       },
+       { 
+        "id": 32,
+        "name": "Arma 3",
+        "price": "R$99,99",
+        "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/header.jpg?t=1709821285",
+        "screenshots": [
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/ss_e9220742c6b786efc9145c58ce7b276af891e9d5.1920x1080.jpg?t=1709821285",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/ss_089dfd05121614ca3a887f49e89c14fa210847ac.1920x1080.jpg?t=1709821285",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/ss_d705d125b0bf4e8d934c8743ef1a26e851fe6cf4.1920x1080.jpg?t=1709821285",
+            "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/ss_de3d649293bf035ae7c1d9cf35235ea2ec36beee.1920x1080.jpg?t=1709821285"
+        ],
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/2029388/movie480.webm?t=1447358827",
+        "releaseDate": "12 set. de 2013",
+        "shortDescription": "Viva um jogo de combate realista num mundo aberto militar descomunal. Arma 3 apresenta uma grande variedade militar para um ou mais jogadores, mais de 20 veículos e 40 armas, e oportunidades ilimitadas para criação de conteúdo. Autêntico, diverso, aberto: Arma 3 envia você para a guerra.",
+        "gameCategories": [
+            "Militar"	,
+            "Simulação",
+            "Tiro",
+            "Multijogador",
+            "Tático"
+        ],
+        "developer": "Bohemia Interactive",
+        "publisher": "Bohemia Interactive",
+        "aboutApps": [
+            "Viva um jogo de combate realista num mundo aberto militar descomunal. Apresentando uma grande variedade militar para um ou mais jogadores, mais de 20 veículos e 40 armas, e oportunidades ilimitadas para criação de conteúdo, este é o principal jogo militar para PC. Autêntico, diverso, aberto: Arma 3 envia você para a guerra.",
+            "Derrote seu inimigo em um campo de batalha aberto e incrivelmente detalhado, abrangendo mais de 290 km² de terreno nas ilhas mediterrâneas. Descubra cidades imensas e relevos naturais, seja conduzindo seu tanque por planícies poeirentas, pilotando um helicóptero de transporte sobre florestas densas ou travando uma guerra assimétrica em colinas rochosas. As ilhas de Altis e Stratis são mundos dinâmicos e palco para os mais variados confrontos dos jogos.",
+            "Vá para o combate a pé, dirija veículos blindados ou suba até os céus em helicópteros e jatos. Conduza um ataque de forças combinadas por ar, terra e mar com mais de 20 veículos pilotáveis e 40 armas à sua escolha. Leve pertences personalizados com acessórios de curta e longa distância, além de diversos tipos de equipamentos que atendem às necessidades do campo de batalha. Com um enorme arsenal à sua disposição, o Arma 3 traz um mundo de oportunidades táticas para você.",
+            "Lute online no sandbox militar aberto de Arma 3. Forme um esquadrão para lutar contra seu inimigo nos cenários multijogador oficiais de defesa e captura. Ou participe de um dos populares modos de jogo não oficiais, desenvolvidos pela comunidade do Arma 3. Experimente uma nova forma de modo multijogador com o Arma 3 Zeus, onde mestres de jogo têm a habilidade de influenciar o campo de batalha de outros jogadores em tempo real."
         ]
        }
     ],

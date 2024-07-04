@@ -17,35 +17,35 @@
       </h1>
   </div>
 
-  <ng-container *ngIf="games.length > 0">
+  <ng-container *ngIf="filteredGames.length > 0">
     <div class="hidden lg:block">
       <app-main-carousel
-          *ngIf="currentGameIndex < 10"
-          [image]="games[currentGameIndex]?.image"
-          [name]="games[currentGameIndex]?.name"
-          [price]="games[currentGameIndex]?.price"
-          [screenshots]="games[currentGameIndex]?.screenshots"
+          *ngIf="filteredGames.length > 0"
+          [image]="filteredGames[currentGameIndex]?.image"
+          [name]="filteredGames[currentGameIndex]?.name"
+          [price]="filteredGames[currentGameIndex]?.price"
+          [screenshots]="filteredGames[currentGameIndex]?.screenshots"
           (next)="nextGame()"
           (prev)="prevGame()">
       </app-main-carousel>
   
       <!-- Marcadores -->
       <div class="flex justify-center mt-4">
-          <span *ngFor="let game of games | slice:0:10; let i = index"
-              class="block w-4 h-[9px] mx-[2px] rounded-[2px] transition duration-300"
-              [ngClass]="{'bg-[#7c8c9c]': i === currentGameIndex, 'bg-[#4c647c]': i !== currentGameIndex}"
-              (click)="currentGameIndex = i"
-              tabindex="0"
-              [attr.aria-current]="i === currentGameIndex ? 'true' : 'false'"
-              [attr.aria-label]="'Slide ' + (i + 1)">
-          </span>
+        <span *ngFor="let game of filteredGames; let i = index"
+            class="block w-4 h-[9px] mx-[2px] rounded-[2px] transition duration-300"
+            [ngClass]="{'bg-[#7c8c9c]': i === currentGameIndex, 'bg-[#4c647c]': i !== currentGameIndex}"
+            (click)="currentGameIndex = i"
+            tabindex="0"
+            [attr.aria-current]="i === currentGameIndex ? 'true' : 'false'"
+            [attr.aria-label]="'Slide ' + (i + 1)">
+        </span>
       </div>
     </div>
   </ng-container>
 
-  <ng-container *ngIf="games.length > 0">
+  <ng-container *ngIf="sliderGames.length > 0">
     <div class="lg:hidden md:w-4/5 md:mx-auto mx-2">
-      <app-slider [games]="games.slice(0, 5)"></app-slider>
+      <app-slider [games]="sliderGames"></app-slider>
     </div>
   </ng-container>
 
@@ -54,7 +54,7 @@
           RECOMENDADOS
       </h1>
       <div class="flex flex-row lg:w-1/2 md:w-4/5 md:mx-auto mx-2 grid gap-3 lg:grid-cols-3 grid-cols-2 pb-2.5 justify-center text-[12px]">
-          <div class="flex" *ngFor="let game of games.slice(0, 6)">
+          <div class="flex" *ngFor="let game of games.slice(14, 20)">
               <app-card-main [name]="game.name" [image]="game.image" [price]="game.price"></app-card-main>
           </div>
       </div>
@@ -71,7 +71,7 @@
       </div>
       <ng-container *ngIf="categories.length > 0">
         <div class="block lg:hidden md:w-4/5 md:mx-auto mx-2">
-          <app-category-card [categories]="categories.slice(0, 6)"></app-category-card>
+          <app-category-card [categories]="categories.slice(0, 10)"></app-category-card>
         </div>
       </ng-container>
 
@@ -93,10 +93,10 @@
 
   <div class="md:mt-16 mt-8">
       <h1 class="flex justify-start lg:w-1/2 md:w-4/5 md:mx-auto mx-2 text-gray-300 text-[14px] font-medium mb-[10px] tracking-wide">
-          RECÉM-ATUALIZADOS
+          VEJA TAMBÉM
       </h1>
       <div class="flex flex-row lg:w-1/2 md:w-4/5 md:mx-auto mx-2 grid gap-3 lg:grid-cols-4 grid-cols-2 pb-2.5 justify-center text-[10px]">
-          <div class="flex" *ngFor="let game of games.slice(0, 4)">
+          <div class="flex" *ngFor="let game of games.slice(26, 30)">
               <app-card-main [name]="game.name" [image]="game.image" [price]="game.price"></app-card-main>
           </div>
       </div>
@@ -113,7 +113,7 @@
               <div class="flex">
                   <div class="flex flex-col lg:w-2/3 w-full">
                       <!-- Cards dinâmicos -->
-                      <ng-container *ngFor="let game of games.slice(0, 10)" class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
+                      <ng-container *ngFor="let game of games.slice(1, 11)" class="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
                           <a [routerLink]="['/game', game.name]" class="relative block h-[69px] mb-[5px] no-underline flex items-center justify-between cursor-pointer"
                               [ngClass]="{
                               'bg-[#1C6C92] lg:ml-[14px]': activeCard === game && isHovered,
@@ -181,7 +181,7 @@
             ESPORTES
         </h1>
         <div class="flex flex-row lg:w-1/2 md:w-4/5 grid gap-3 lg:grid-cols-4 grid-cols-2 pb-2.5 md:mx-auto mx-2 justify-center text-[10px]">
-            <div class="flex" *ngFor="let game of games.slice(0, 4)">
+            <div class="flex" *ngFor="let game of getSportsGames()">
                 <app-card-main [name]="game.name" [image]="game.image" [price]="game.price"></app-card-main>
             </div>
         </div>

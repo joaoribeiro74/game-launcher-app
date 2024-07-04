@@ -3,7 +3,7 @@
         <div *ngFor="let game of games" class="snap-center flex-shrink-0 w-64 h-48 md:my-1.5 md:mr-3 mr-3 bg-[#1C6C92] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow">
             <a [routerLink]="['/game', game.name]" class="block w-64 h-48">
                 <div>
-                    <img class="h-36" [src]="game.image" alt="Imagem do jogo">
+                    <img class="h-36" [src]="game.image">
                 </div>
                 <div class="flex items-center cursor-pointer text-white font-bold">
                     <span class="flex flex-row px-2 py-3 truncate md:text-sm text-[14px]">{{ game.name }}</span>

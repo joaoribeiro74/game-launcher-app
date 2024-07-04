@@ -43,7 +43,7 @@
         <div *ngIf="game" class="snap-center flex-shrink-0 w-full sm:h-72 h-48 md:my-1.5 md:mr-3 mr-3 bg-[#1C6C92] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow">
             <a class="block w-full sm:h-72 h-48">
                 <div>
-                    <img class="sm:h-60 h-36 w-full" [src]="game.image" alt="Imagem do jogo">
+                    <img class="sm:h-60 h-36 w-full" [src]="game.image">
                 </div>
                 <div class="flex items-center cursor-pointer text-white font-bold">
                     <span class="flex flex-row px-2 py-3 truncate md:text-sm text-[14px]">{{ game.name }}</span>
@@ -67,7 +67,7 @@
 </div>
   
 <ng-container *ngIf="games.length > 0">
-    <div class="flex flex-row lg:w-1/2 md:w-4/5 grid grid-cols-2 gap-3 pb-2.5 md:mx-auto mx-2 justify-center mb-10">
+    <div class="flex flex-row lg:w-1/2 md:w-4/5 grid grid-cols-2 gap-4 pb-2.5 md:mx-auto mx-2 justify-center mb-10">
       <div *ngFor="let game of games.slice(1)" class="flex">
         <app-card [name]="game.name" [price]="game.price" [image]="game.image" [video]="game.video" [releaseDate]="game.releaseDate"></app-card>
       </div>
