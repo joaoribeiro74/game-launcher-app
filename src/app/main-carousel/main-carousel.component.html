@@ -26,7 +26,7 @@
                 </div>
                 <div class="price absolute bottom-[10px] left-[632px]">
                     <div class="original-price flex items-center flex-row shrink px-[5px] justify-end">
-                        <div class="relative w-fit font-bold text-white text-[12px]">{{ price }}</div>
+                        <div class="relative w-fit font-bold text-white text-[12px]">{{ price | currency:'BRL':'symbol':'1.2-2' }}</div>
                     </div>
                 </div>
             </div>

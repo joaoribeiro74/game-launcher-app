@@ -9,7 +9,7 @@
           <div class="flex-shrink-0 ml-auto px-2 md:py-0 py-1.5 font-semibold">
             <span class="flex">
               <div class="flex px-2 py-0.5 bg-[#1C2C3C]">
-                <div>{{ price }}</div>
+                <div>{{ price | currency:'BRL':'symbol':'1.2-2' }}</div>
               </div>
             </span>
           </div>

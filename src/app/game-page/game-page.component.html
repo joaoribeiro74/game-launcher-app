@@ -87,7 +87,7 @@
       <h1 class="text-white font-bold text-lg md:text-2xl">{{ game.name }}</h1>
       <div class="absolute right-8 translate-y-[15%] flex">
         <div class="flex items-center inline-block bg-[#171D25] rounded-lg text-white text-[12px] md:text-[15px] font-bold py-2 pl-4 pr-2">
-          {{ game.price }}
+          {{ game.price | currency:'BRL':'symbol':'1.2-2' }}
           <button (click)="handlePurchase()" class="shadow bg-gradient-to-r from-[#00B203] to-[#6EE163] px-3 md:px-4 text-[10px] md:text-sm py-1 md:py-1.5 rounded ml-4">
             Comprar
           </button>
@@ -123,7 +123,7 @@
                       <div class="flex ml-auto pr-2 md:py-0 py-1.5 font-semibold">
                         <span class="flex">
                           <div class="flex px-2 py-0.5 bg-[#1C2C3C]">
-                            <div>{{ game.price }}</div>
+                            <div>{{ game.price | currency:'BRL':'symbol':'1.2-2' }}</div>
                           </div>
                         </span>
                       </div>

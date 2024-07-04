@@ -3,7 +3,7 @@
       { 
         "id": 0,
         "name": "Grand Theft Auto V",
-        "price": "R$159,90",
+        "price": 159.90,
         "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_1487c2c7ddd9a1ae6b55f7e50d5d63ada6915921.1920x1080.jpg?t=1716224849",
@@ -32,7 +32,7 @@
        { 
         "id": 1,
         "name": "Fallout 4",
-        "price": "R$59,99",
+        "price": 59.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1717972401",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/ss_f7861bd71e6c0c218d8ff69fb1c626aec0d187cf.1920x1080.jpg?t=1717972401",
@@ -61,7 +61,7 @@
        { 
         "id": 2,
         "name": "The Witcher 3: Wild Hunt",
-        "price": "R$129,99",
+        "price": 129.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg?t=1716793585",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg?t=1716793585",
@@ -91,7 +91,7 @@
        { 
         "id": 3,
         "name": "DEATH STRANDING",
-        "price": "R$159,99",
+        "price": 159.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/header.jpg?t=1718100326",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850570/ss_f64a1140651ff5af30eb63bb6e5b41753d00a98e.1920x1080.jpg?t=1718100326",
@@ -120,7 +120,7 @@
        { 
         "id": 4,
         "name": "Red Dead Redemption 2",
-        "price": "R$299,90",
+        "price": 299.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1714055653",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1714055653",
@@ -152,7 +152,7 @@
        { 
         "id": 5,
         "name": "Stardew Valley",
-        "price": "R$24,99",
+        "price": 24.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1711128146",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1711128146",
@@ -183,7 +183,7 @@
        { 
         "id": 6,
         "name": "Lethal Company",
-        "price": "R$32,99",
+        "price": 32.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg?t=1700231592",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1966720/ss_78075e9a94675823024f12fce9d69b243cca94f8.1920x1080.jpg?t=1700231592",
@@ -212,7 +212,7 @@
        { 
         "id": 7,
         "name": "Among Us",
-        "price": "R$14,99",
+        "price": 14.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg?t=1718741655",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/945360/ss_b7374128e5b786a302a716bca038d604b00ffe46.1920x1080.jpg?t=1718741655",
@@ -242,7 +242,7 @@
        { 
         "id": 8,
         "name": "Tom Clancy's Rainbow Six® Siege",
-        "price": "R$84,99",
+        "price": 84.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg?t=1716985808",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/ss_3eff8247a59ebc718e87753fd17c4d0321f03ebc.1920x1080.jpg?t=1716985808",
@@ -272,7 +272,7 @@
        { 
         "id": 9,
         "name": "The Last of Us™ Part I",
-        "price": "R$249,90",
+        "price": 249.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/header.jpg?t=1717621627",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_ec1a71230d4fb477282fa7f25688af37b702ce49.1920x1080.jpg?t=1717621627",
@@ -300,7 +300,7 @@
        { 
         "id": 10,
         "name": "EA SPORTS FC™ 24",
-        "price": "R$359,00",
+        "price": 359.00,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/header.jpg?t=1719935449",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2195250/ss_f3d31c7cffc2a6ab42fb76aaac2bc9d5258bc142.1920x1080.jpg?t=1718274603",
@@ -330,7 +330,7 @@
        { 
         "id": 11,
         "name": "NBA 2K23",
-        "price": "R$299,90",
+        "price": 299.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/header.jpg?t=1719588484",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2338770/ss_8c214bbc6c34b2d681628e94c2f3158cd9d6eb3a.1920x1080.jpg?t=1719588484",
@@ -360,7 +360,7 @@
        { 
         "id": 12,
         "name": "Tony Hawk's™ Pro Skater™ 1 + 2",
-        "price": "R$199,00",
+        "price": 199.00,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/header.jpg?t=1696374771",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2395210/ss_de7db46ee5f6164dfdb467ad1659f7981e285824.1920x1080.jpg?t=1696374771",
@@ -389,7 +389,7 @@
        { 
         "id": 13,
         "name": "WWE 2K24",
-        "price": "R$299,99",
+        "price": 299.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315690/header.jpg?t=1719596538",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2315690/ss_81e9d8ebeddac03d15ec5197564714af400f0b5b.1920x1080.jpg?t=1719596538",
@@ -419,7 +419,7 @@
        { 
         "id": 14,
         "name": "Madden NFL 24",
-        "price": "R$359,99",
+        "price": 359.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140330/header.jpg?t=1715696274",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2140330/ss_c259f29daea8117401ca4d73199315c6cb2ea53c.1920x1080.jpg?t=1715696274",
@@ -449,7 +449,7 @@
        { 
         "id": 15,
         "name": "ELDEN RING",
-        "price": "R$309,90",
+        "price": 309.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header_alt_assets_2_brazilian.jpg?t=1719962233",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1719962233",
@@ -479,7 +479,7 @@
        { 
         "id": 16,
         "name": "Diablo® IV",
-        "price": "R$229,90",
+        "price": 229.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/header.jpg?t=1719248064",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2344520/ss_9ba2c9634f88f684f069d42d4de6a42f63b07911.1920x1080.jpg?t=1719248064",
@@ -509,7 +509,7 @@
        { 
         "id": 17,
         "name": "Cyberpunk 2077",
-        "price": "R$199,90",
+        "price": 199.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg?t=1718101184",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1718101184",
@@ -539,7 +539,7 @@
        { 
         "id": 18,
         "name": "Detroit: Become Human",
-        "price": "R$119,90",
+        "price": 119.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/header.jpg?t=1667468479",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222140/ss_3011c05e404043e3bfed1f6de7fe12ffd58ddc9b.1920x1080.jpg?t=1667468479",
@@ -569,7 +569,7 @@
        { 
         "id": 19,
         "name": "Forza Horizon 5",
-        "price": "R$249,00",
+        "price": 249.00,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1718730250",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/ss_cf56e25a0290556ba83229eb0ab370d10be0407c.1920x1080.jpg?t=1718730250",
@@ -599,7 +599,7 @@
        { 
         "id": 20,
         "name": "F1® 24",
-        "price": "R$359,00",
+        "price": 359.00,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/header.jpg?t=1718789380",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2488620/ss_fb5f9f2a64addf4f8f718d0caf35741944d61393.1920x1080.jpg?t=1718789380",
@@ -629,7 +629,7 @@
        { 
         "id": 21,
         "name": "The Crew Motorfest",
-        "price": "R$299,99",
+        "price": 299.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/header.jpg?t=1715612457",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2698940/ss_d88a7b6cf59355545b0a90a8254379edd423cc06.1920x1080.jpg?t=1715612457",
@@ -659,7 +659,7 @@
        { 
         "id": 22,
         "name": "Need for Speed™ Payback",
-        "price": "R$89,00",
+        "price": 89.00,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/header.jpg?t=1692306558",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1262580/ss_afc36c446e528e64298b881d59d245e0426d0673.1920x1080.jpg?t=1692306558",
@@ -688,7 +688,7 @@
        { 
         "id": 23,
         "name": "Terraria",
-        "price": "R$32,99",
+        "price": 32.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1666290860",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/ss_8c03886f214d2108cafca13845533eaa3d87d83f.1920x1080.jpg?t=1666290860",
@@ -717,7 +717,7 @@
        { 
         "id": 24,
         "name": "Baldur's Gate 3",
-        "price": "R$199,99",
+        "price": 199.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg?t=1713271288",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg?t=1713271288",
@@ -747,7 +747,7 @@
        { 
         "id": 25,
         "name": "Hogwarts Legacy",
-        "price": "R$249,99",
+        "price": 249.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg?t=1717689083",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/ss_df93b5e8a183f7232d68be94ae78920a90de1443.1920x1080.jpg?t=1717689083",
@@ -777,7 +777,7 @@
        { 
         "id": 26,
         "name": "DayZ",
-        "price": "R$149,99",
+        "price": 149.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1719328136",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/ss_bf0e5d5538d95a1cb943a7963489ba4df2782942.1920x1080.jpg?t=1719328136",
@@ -807,7 +807,7 @@
        { 
         "id": 27,
         "name": "Rust",
-        "price": "R$103,49",
+        "price": 103.49,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1715591843",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_271feae67943bdc141c1249aba116349397e9ba9.1920x1080.jpg?t=1715591843",
@@ -837,7 +837,7 @@
        { 
         "id": 28,
         "name": "Euro Truck Simulator 2",
-        "price": "R$61,99",
+        "price": 61.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg?t=1718786615",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/ss_54100267623179f54731048c91add16c1c3d3d1e.1920x1080.jpg?t=1718786615",
@@ -866,7 +866,7 @@
        { 
         "id": 29,
         "name": "The Forest",
-        "price": "R$37,99",
+        "price": 37.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/ss_8ccb821c4df3fafdf4161d77f38635441a8157f2.1920x1080.jpg?t=1699381053",
@@ -895,7 +895,7 @@
        { 
         "id": 30,
         "name": "Outlast 2",
-        "price": "R$88,99",
+        "price": 88.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg?t=1618944453",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/ss_69427df3942114a8e0c598e03fc88112f65f7fdc.1920x1080.jpg?t=1618944453",
@@ -925,7 +925,7 @@
        { 
         "id": 31,
         "name": "Resident Evil 7 Biohazard",
-        "price": "R$66,90",
+        "price": 66.90,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/header.jpg?t=1713310478",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/ss_d07fd9fca3644350782356667ce78d436c574680.1920x1080.jpg?t=1713310478",
@@ -953,7 +953,7 @@
        { 
         "id": 32,
         "name": "Arma 3",
-        "price": "R$99,99",
+        "price": 99.99,
         "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/header.jpg?t=1709821285",
         "screenshots": [
             "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/ss_e9220742c6b786efc9145c58ce7b276af891e9d5.1920x1080.jpg?t=1709821285",
