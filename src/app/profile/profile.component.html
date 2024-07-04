@@ -1,0 +1,93 @@
+<div class="min-h-screen lg:w-1/2 md:w-4/5 md:mx-auto mx-2">
+  <div class="bg-[#171D25] md:mt-10 md:p-8 mt-4 p-4">
+    <div class="flex flex-col sm:flex-row">
+      <div class="flex flex-row">
+      <div class="bg-[#1C2C3C] md:w-48 md:h-48 h-36 w-36 flex mr-4 items-center justify-center flex-shrink-0">
+        <ng-container *ngIf="!profileImage" class="">
+          <svg xmlns="http://www.w3.org/2000/svg" height="128" width="112" viewBox="0 0 448 512">
+            <path fill="#171d25" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/>
+          </svg>          
+        </ng-container>
+        <img *ngIf="profileImage" [src]="profileImage" alt="" class="md:w-44 md:h-44 w-32 h-32"/>
+      </div>
+      <div class="pr-4 flex flex-col text-white w-4/5 sm:2/3">
+        <h1 class="lg:text-2xl text-lg font-bold pb-3">{{ newUsername }}</h1>
+        <div class="flex flex-col flex-grow overflow-auto lg:max-w-72 md:max-w-40 max-w-48">
+          <p class="font-semibold text-gray-300 lg:text-[12px] text-[10px] break-words">
+            {{ profileSummary }}
+          </p>
+        </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col text-start sm:mb-0 mb-6 sm:mt-0 mt-6 sm:ml-auto">
+        <h2 class="flex text-x0.1 text-white font-bold">JOGO FAVORITO</h2>
+        <div *ngIf="games.length > 0">
+          <div
+            class="bg-[#1C2C3C] shadow-[0_0_10px_rgba(0,0,0,0.7)] rounded-lg lg:h-32 lg:w-64 md:h-24 md:w-48 h-full w-full">
+            <div>
+              <img class="rounded-t-lg object-cover" [src]="getFavoriteGameImage()" alt=""/>
+            </div>
+            <div class="flex items-center text-white font-bold bg-[#1C2C3C] rounded-b-lg shadow-[0_0_10px_rgba(0,0,0,0.7)]">
+              <span class="flex flex-row px-2 py-2 lg:text-[14px] md:text-[11px]">
+                {{ favoriteGame || games[0].name }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex md:justify-end">
+      <button class="bg-gradient-to-r from-[#2C7CFC] to-[#04BCFC] text-white text-[12px] font-bold tracking-wide py-2 px-8 rounded mt-2" (click)="toggleModal()">
+        EDITAR PERFIL
+      </button>
+    </div>
+    <app-profile-edit-modal *ngIf="showModal"
+                          [displayName]="displayName"
+                          [profileImage]="profileImage"
+                          [profileSummary]="profileSummary"
+                          [favoriteGame]="favoriteGame"
+                          [newUsername]="newUsername"
+                          [games]="games"
+                          (closeModal)="toggleModal()"
+                          (saveProfile)="updateProfile($event)">
+  </app-profile-edit-modal>
+  </div>
+
+
+  <div class="bg-[#171D25] md:mt-8 md:p-8 md:mb-8 mt-4 p-4 mb-4">
+    <div class="flex justify-between items-center">
+      <h2 class="text-xl font-bold text-gray-300">JOGOS DO PERFIL</h2>
+      <p class="text-gray-300 font-bold text-[14px]">TOTAL DE JOGOS: {{ totalGames }}</p>
+    </div>
+    <div class="mt-2 flex flex-col">
+      <div class="w-full">
+        <div *ngFor="let game of sortedGames" class="relative block h-[69px] mb-[5px] no-underline flex items-center justify-between bg-[#1C2C3C] shadow">
+          <div class="flex items-center">
+            <div class="flex-shrink-0">
+              <img class="h-[69px] w-[155.25px]" [src]="game.image" />
+            </div>
+            <div class="pl-2 truncate">
+              <div class="text-white text-[14px] font-bold">
+                {{ game.name }}
+              </div>
+              <div class="text-[#384959]">
+                <span class="opacity-30 align-bottom inline-block h-[20px] w-[20px]">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="SVGIcon_Button SVGIcon_WindowsLogo" width="15" height="15" viewBox="0 0 36 36">
+                    <rect fill="#6b8aaa" width="15" height="15"></rect>
+                    <rect x="18" fill="#6b8aaa" width="15" height="15"></rect>
+                    <rect y="18" fill="#6b8aaa" width="15" height="15"></rect>
+                    <rect x="18" y="18" fill="#6b8aaa" width="15" height="15"></rect>
+                  </svg>
+                </span>
+              </div>
+              <div class="text-[#384959] text-[10px] font-bold">
+                {{ game.gameCategories.join(", ") }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

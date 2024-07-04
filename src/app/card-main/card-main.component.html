@@ -1,12 +1,12 @@
 <div class="group relative">
     <div class="bg-[#1C6C92] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow transition-transform transition-shadow duration-300 ease-in-out hover:scale-[104%] hover:shadow-[0_0_15px_rgba(0,0,0,0.8)]">
-      <a href="#" class="block cursor-pointer">
+      <a [routerLink]="['/game', name]" class="block cursor-pointer">
         <div>
-          <img class="" src="{{ image }}" alt="" />
+          <img class="" src="{{ image }}"/>
         </div>
-        <div class="flex items-center cursor-pointer text-white font-bold">
-          <span class="flex flex-row px-2 py-3">{{ name }}</span>
-          <div class="flex ml-auto pr-2 font-semibold">
+        <div class="flex items-center cursor-pointer py-2 text-white font-bold">
+          
+          <div class="flex-shrink-0 ml-auto px-2 md:py-0 py-1.5 font-semibold">
             <span class="flex">
               <div class="flex px-2 py-0.5 bg-[#1C2C3C]">
                 <div>{{ price }}</div>

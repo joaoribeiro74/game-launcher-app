@@ -1,28 +1,28 @@
 <div class="group relative">
-    <div class="bg-[#0C141C] rounded-[5px] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow hover:shadow-lg">
-      <a href="#" class="block cursor-pointer">
+    <div class="bg-[#0C141C] rounded-[5px] shadow-[0_0_10px_rgba(0,0,0,0.7)] transition-shadow hover:shadow-lg overflow-hidden">
+      <a [routerLink]="['/game', name]" class="block cursor-pointer">
         <div>
-          <img class="rounded-t-[5px]" src="{{ image }}" alt="" />
+          <img class="rounded-t-[5px]" src="{{ image }}"/>
         </div>
-        <div class="flex items-center cursor-pointer text-white font-bold group-hover:text-gray-200">
-          <span class="flex flex-row p-3">{{ title }}</span>
-          <div class="flex ml-auto px-5 py-3 bg-[#1C6C92] rounded-br-[5px] font-semibold">
-            <span class="flex">
-              <div class="flex p-0">
+        <div class="flex items-center cursor-pointer md:text-md text-sm text-white font-bold group-hover:text-gray-200">
+          <span class="p-3 hidden md:block truncate">{{ name }}</span>
+          <div class="flex ml-auto md:px-5 md:py-3 px-3 py-2 bg-[#1C6C92] rounded-br-[5px] font-semibold">
+            <div class="flex">
+              <div class="flex py-0">
                 <div>{{ price }}</div>
               </div>
-            </span>
+            </div>
           </div>
         </div>
       </a>
     </div>
     <div class="hidden lg:block absolute -inset-x-4 -inset-y-16 z-50 bg-gray-800 opacity-0 shadow-custom group-hover:opacity-100 transition-opacity duration-300">
       <div class="flex flex-col h-full box-border justify-between outline-none">
-        <a class="relative w-full no-underline text-white">
+        <a [routerLink]="['/game', name]" class="relative w-full no-underline text-white">
           <div class="relative w-full pt-[55%]">
             <div class="absolute inset-0 w-full h-full shadow-custom">
-              <video class="absolute inset-0 w-full h-full object-cover" loop autoplay>
-                <source src="https://cdn.akamai.steamstatic.com/steam/apps/256889456/microtrailer.webm?t=1654109241" type="video/webm">
+              <video  #videoElement class="absolute inset-0 w-full h-full object-cover" loop autoplay>
+                <source [src]="video" type="video/webm">
               </video>
               <div class="absolute bottom-0 transform translate-y-1/2 w-1/2 h-auto shadow-custom">
                 <img class="w-full h-full object-contain" src="{{ image }}">
@@ -36,13 +36,13 @@
         <div class="flex flex-1">
           <div class="py-[4px] px-2">
             <a class="no-underline text-white">
-              <div class="text-[18px] font-bold">{{ title }}</div>
+              <div class="text-[18px] font-bold">{{ name }}</div>
             </a>
             <div class="flex flex-row justify-start items-center text-[12px] font-semibold">
               <span class="inline-flex mr-1 opacity-70">     
                   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="SVGIcon_Button SVGIcon_WindowsLogo" width="15" height="15" viewBox="0 0 36 36"><rect fill="#6b8aaa" width="15" height="15"></rect><rect x="18" fill="#6b8aaa" width="15" height="15"></rect><rect y="18" fill="#6b8aaa" width="15" height="15"></rect><rect x="18" y="18" fill="#6b8aaa" width="15" height="15"></rect></svg>
               </span>
-              <div class="text-[#6b8aaa] whitespace-nowrap">{{ release }}</div>
+              <div class="text-[#6b8aaa] whitespace-nowrap">{{ releaseDate }}</div>
             </div>
           </div>
         </div>

@@ -1,0 +1,117 @@
+<div class="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50">
+    <div class="bg-[#171D25] rounded-lg p-8 lg:w-2/6 md:w-4/5 md:mx-auto mx-4">
+      <h2 class="text-2xl text-white font-bold mb-4 uppercase">Editar Perfil</h2>
+      <!-- Formulário de edição do perfil -->
+      <form #profileForm="ngForm" (ngSubmit)="saveChanges()">
+        <div class="flex flex-col">
+            <label class="block text-gray-300 text-sm font-bold mb-2 uppercase" for="profileImage">
+                AVATAR
+            </label>
+        </div>
+        <div class="mb-4 flex">
+            <div class="shadow bg-[#1C2C3C] w-48 h-48 flex mr-4 items-center justify-center flex-shrink-0">
+
+
+              <ng-container *ngIf="!profileImage">
+                <svg xmlns="http://www.w3.org/2000/svg" height="128" width="112" viewBox="0 0 448 512">
+                  <path fill="#171d25" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/>
+                </svg>          
+              </ng-container>
+              <img *ngIf="profileImage" [src]="profileImage" alt="" class="w-44 h-44"/>
+            </div>
+            
+          
+            <div class="flex flex-col items-start">
+              <input
+                type="file"
+                id="profileImageFile"
+                class="hidden"
+                (change)="onFileSelected($event)"
+                accept="image/*"
+                #fileInput
+              />
+              <div class="flex items-center">
+                <button class="text-[10px] bg-gradient-to-r from-[#2C7CFC] to-[#04BCFC] text-white font-bold py-2 px-8 rounded focus:outline-none focus:shadow-outline"
+                  type="button"
+                  (click)="fileInput.click()">ENVIE O SEU AVATAR
+                </button>
+              </div>
+            </div>
+          </div>
+        <div class="mb-4">
+          <label class="block text-gray-300 text-sm font-bold mb-2 uppercase" for="displayName">
+            Nome de usuário
+          </label>
+          <input
+            type="text"
+            id="displayName"
+            class="shadow appearance-none bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+            [(ngModel)]="displayName"
+            name="displayName"
+            [disabled]="true"
+          />
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-300 text-sm font-bold mb-2 uppercase" for="newUsername">
+              Nome de exibição
+            </label>
+            <input
+                type="text"
+                id="newUsername"
+                class="shadow appearance-none bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+                [(ngModel)]="newUsername"
+                name="newUsername"
+                #newUsernameModel="ngModel"
+                [class.border-rose-800]="newUsernameModel.invalid && (newUsernameModel.dirty || newUsernameModel.touched)"
+                pattern="^.{2,32}$"
+                required
+            />
+            <div *ngIf="newUsernameModel.invalid && (newUsernameModel.dirty || newUsernameModel.touched)" class="text-rose-800 text-sm mt-1">
+                O nome de exibição deve ter entre 2 e 32 caracteres.
+            </div>
+          </div>
+        <div class="mb-4">
+          <label class="block text-gray-300 text-sm font-bold mb-2 uppercase" for="profileSummary">
+            Resumo do Perfil
+          </label>
+          <textarea
+            id="profileSummary"
+            class="shadow appearance-none bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded w-full py-2 px-3 leading-tight  focus:outline-none focus:shadow-outline"
+            [(ngModel)]="profileSummary"
+            name="profileSummary"
+            maxlength="256"
+          ></textarea>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-300 text-sm font-bold mb-2 uppercase" for="favoriteGame">
+            Jogo Favorito
+          </label>
+          <select
+            id="favoriteGame"
+            class="shadow appearance-none bg-[#1C2C3C] text-white border border-[#1C2C3C] rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
+            [(ngModel)]="favoriteGame"
+            name="favoriteGame"
+          >
+            <option *ngFor="let game of sortedGames" [value]="game.name">{{ game.name }}</option>
+          </select>
+        </div>
+        <div class="flex items-center justify-between">
+          <button
+            [disabled]="!profileForm.valid"
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 bg-gradient-to-r from-[#2C7CFC] to-[#04BCFC] px-8 rounded focus:outline-none focus:shadow-outline"
+            type="submit"
+          >
+            Salvar
+          </button>
+          <button
+            class="text-rose-800 hover:text-red-700 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            type="button"
+            (click)="close()"
+          >
+            Cancelar
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  

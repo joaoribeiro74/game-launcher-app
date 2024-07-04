@@ -15,16 +15,36 @@ export class LoginComponent {
   username: string = '';
   password: string = '';
   rememberMe: boolean = false;
+  usernameInvalid: boolean = false;
+  passwordInvalid: boolean = false;
 
   constructor(private authService: AuthService, private router: Router) {}
 
   login(): void {
-    const loggedIn = this.authService.login(this.username, this.password);
+    this.usernameInvalid = false;
+    this.passwordInvalid = false;
 
-    if (loggedIn) {
-      this.router.navigate(['']);
+    if (this.authService.login(this.username, this.password)) {
+      this.router.navigate(['']); // Redireciona para o perfil se o login for bem-sucedido
     } else {
-      console.log('Login falhou para usuário:', this.username);
+      const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+      if (userData.username !== this.username) {
+        this.usernameInvalid = true;
+      }
+      if (userData.password !== this.password) {
+        this.passwordInvalid = true;
+      }
     }
+  }
+
+  isUsernameValid(): boolean {
+    const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+    return this.authService.isLoggedIn() || (userData.username === this.username);
+  }
+
+  // Verifica se a senha está correta para remover o erro e a borda vermelha
+  isPasswordValid(): boolean {
+    const userData = JSON.parse(localStorage.getItem('userData') || '{}');
+    return this.authService.isLoggedIn() || (userData.password === this.password);
   }
 }
